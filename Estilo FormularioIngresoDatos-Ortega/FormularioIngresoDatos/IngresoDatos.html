@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAM DATABASE</title>
+    <link rel="stylesheet" href="../../CSS/ingresodatos.css">
+
+</head>
+<body>
+    <header class="header">
+        <div>
+            <img class="logo" src="../../Imagenes/logo.jpg" alt="">
+        </div>
+        <div class="title">
+            <h1>TAM DATABASE</h1>
+        </div>
+        <div class="title2">
+            <h3>BASE DE DATOS DE MALARIA AVIAR TRÓPICAL</h3>
+        </div>
+    </header>
+    <div class="description">
+            <p>Para importar los datos a la plataforma tendrá dos opciones:</p>
+            <p> En la <strong>opción 1</strong> para 10 registros o menos usted podrá ingresar
+                los datos manualmente y en la <strong>opción 2</strong>, para registros mayores
+                a 10 o masivos se recomienda el uso de un archivo en formato .csv</p>
+    </div>
+    <main>
+        <section class="section">
+            <div class="column">
+                <h2>OPCIÓN 1: Ingrese datos manualmente</h2>
+            </div>
+            <form class="form" action="IngresoDatos.html" method="POST">  
+                
+                <div class="column">
+
+                <h3>Información Geográfica</h3>
+                <label for="latitud"> Latitud:</label>
+                <input type="text" size="30" name="latitud"/>
+                <br><br>
+                <label for="longitud"> Longitud:</label>
+                <input type="text" size="30" name="longitud"/>
+                <br><br>
+                <label for="pais"> País:</label>
+                <input type="text" size="30" name="pais"/>
+                <br><br>
+                <label for="localidad"> Localidad:</label>
+                <input type="text" size="30" name="localidad"/>
+                <br><br>
+                <label for="elevacion"> Elevacion(m):</label>
+                <input type="text" size="30" name="elevacion"/>
+
+                <h3>Información Genética</h3>    
+                <label for="codigo genbank"> Codigo Genbank:</label>
+                <input type="text" size="30" name="Codigo Genbank"/>
+                <br><br>
+                <label for="marcador molecular"> Marcador Molecular:</label>
+                <input type="text" size="30" name="marcador molecular"/>
+                
+                </div>
+
+                <div class="column">
+                
+                <h3>Información Taxonómica del Ave Hospedera</h3>
+
+                <label for="orden"> Orden:</label>
+                <input type="text" size="30" name="orden"/>
+                <br><br>
+                <label for="familia"> Familia:</label>
+                <input type="text" size="30" name="familia"/>
+                <br><br>
+                <label for="especie"> Especie:</label>
+                <input type="text" size="30" name="especie"/>
+                <br><br>
+
+                <h3>Información Taxonómica del Parásito</h3>
+ 
+                <label for="genero"> Género:</label>
+                <input type="text" size="30" name="genero"/>
+
+                <h3>Información Bibliográfica</h3>
+
+                <p>
+                    Si ha realizado una publicación ingrese la cita bibliográfica<br> 
+                    (Ej: Gil-Vargas et al., 2020), de lo contrario ingrese NA
+                </p>
+
+                <label for="referencia"> Referencia</label>
+                <input type="text" size="30" name="referencia"/>
+                <br><br>
+                <button type="submit">Ingresar Datos</button>
+                </div>
+            </form> 
+
+        </section>
+
+        <section class="section2">
+            <div>
+                <h2>OPCIÓN 2:Cargue datos con la hoja de cálculo en TAM DATABASE</h2>
+            </div>
+
+            <p>
+                Esta opción es recomendada para importar grandes volúmenes de datos. 
+                Por lo tanto, esta opción tiene requisitos específicos para el archivo: 
+                el tipo de archivo debe ser un .xml y se deberá eliminar la primera fila de este archivo
+                antes de subir sus datos, pues está fila de encabezado solo sirve como una guía para la 
+                organización de sus datos.
+            </p>
+            <a href="./EjemploFormularioDatos.xlsx">Puede descargar el ejemplo del archivo .xml dando click aquí</a>
+
+            <h3>Importe un archivo</h3>
+
+            <p>
+                Escoja un archivo para importar
+            </p>
+            <input type="file" accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+            <br><br>
+            <button type="reset">Cancelar</button>
+            <br><br>
+            <button type="submit">Importar archivo</button>
+
+        </section>
+    </main>
+
+</body>
+</html>
