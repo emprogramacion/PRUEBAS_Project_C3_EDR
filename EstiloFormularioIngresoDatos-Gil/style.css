@@ -1,6 +1,6 @@
 * {
     font-family: Quicksand;
-    font-size: 25px;
+    font-size: 22px;
     color: rgba(0, 0, 0, 0.842);
   }
 
@@ -27,6 +27,10 @@
     align-items: center;
     justify-content: center;
   }
+
+  .column{
+    padding: 1em;
+}
   
   .MenuWrap {
   background-color: indigo;
@@ -53,15 +57,23 @@
   background-color: rgba(35, 0, 130, 0.178);
   display: grid;
   grid-template-columns: auto auto;
-  padding: 25px;
-  grid-column-gap: 5px;
+  grid-column-gap: 60px;
+  border: solid;
+  border-radius: 1em;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-color: indigo;
+  margin: 0.5em;
+  margin-bottom: 0;
+  padding: 1em;
+  align-items: center;
 }
 .grid-item {
   padding: 5px;
-  font-size: 25px;
+  font-size: 22px;
 }
 .parrafo {
-  padding: 20px;
+  padding: 25px;
 }
   body {
     margin: 0;
@@ -70,3 +82,18 @@
     background: linear-gradient(to bottom right,  #69af9d83, #fffffd8c);
     text-align: justify;
   }
+  .section{
+    background-color: rgba(35, 0, 130, 0.178);
+    border: solid;
+    border-radius: 1em;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-color: indigo;
+    margin:0.5em;
+    margin-top: 0;
+    padding: 1em;
+}
+.item { 
+  grid-area: footer; 
+  font-size: 15px;
+}
