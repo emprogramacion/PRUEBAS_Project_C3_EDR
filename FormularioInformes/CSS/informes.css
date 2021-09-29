@@ -1,0 +1,160 @@
+* {
+    font-family: Quicksand;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.842);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: linear-gradient(to bottom right,  #69af9d83, #fffffd8c);
+    text-align: justify;
+}
+
+  .titulo {
+    background-color: rgba(35, 0, 130, 0.452);
+    color: #ebebeb;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding-top: 0.2em;
+    padding-bottom: 0.6em;
+}
+
+.titulo img {
+    height: 180px;
+}
+
+.subtitulo {
+    margin-top: -80px;
+    color: #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 7em;
+}
+  
+.MenuWrap {
+  background-color: indigo;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.menu-item{
+    border-left: #ebebeb solid;
+    padding: 0.5em;
+}
+
+.ListItem,
+.LastItem {
+  color: #ebebeb;
+  text-decoration: none;
+}
+
+.ListItem {
+  margin-right: 1rem;
+}
+
+.LastItem {
+  margin-right: auto;
+}
+
+.desc-search{
+    margin: 0.5em;
+    padding-left: 1em;
+}
+
+.boton-search{
+    padding: 1em;
+    margin: 0.5em;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    margin: 0.5em;
+    padding-left: 1em;
+}
+
+.categoria1{
+    padding: 0;
+    padding-left: 1em;
+    width: 240px;
+}
+
+.categoria2{
+    padding-left: 1em;
+    width: 220px;
+}
+
+.categoria3{
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 269px;
+}
+
+.categoria4{
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 269px;
+}
+
+.check{
+    padding-top: 0.5em;
+}
+
+.categ{
+    font-weight: bold;
+}
+
+hr{
+    padding: 0;
+    margin: initial;
+    border: indigo 1px solid;
+}
+
+#boton{
+    padding: 8px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.grid-container {
+    background-color: rgba(35, 0, 130, 0.178);
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 60px;
+    border: solid;
+    border-radius: 1em;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-color: indigo;
+    margin: 0.5em;
+    margin-bottom: 0;
+    padding: 1em;
+    align-items: center;
+  }
+
+.item { 
+    grid-area: footer; 
+    font-size: 15px;
+  }
+
+.section{
+    background-color: rgba(35, 0, 130, 0.178);
+    border: solid;
+    border-radius: 1em;
+    border-color: indigo;
+    margin:0.5em;
+    margin-top: 0;
+    padding: 1em;
+}
