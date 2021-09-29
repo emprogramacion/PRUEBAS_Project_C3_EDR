@@ -29,7 +29,8 @@
   }
 
   .column{
-    padding: 1em;
+    padding: 10px;
+    height: 150px;
 }
   
   .MenuWrap {
@@ -67,11 +68,19 @@
   margin-bottom: 0;
   padding: 1em;
   align-items: center;
+  padding-top: 0;
 }
+
 .grid-item {
   padding: 5px;
   font-size: 22px;
 }
+
+.grid-item2 {
+  font-size: 22px;
+  padding-top: 200px;
+}
+
 .parrafo {
   padding: 25px;
 }
