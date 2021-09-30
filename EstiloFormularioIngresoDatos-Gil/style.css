@@ -58,7 +58,7 @@
   background-color: rgba(35, 0, 130, 0.178);
   display: grid;
   grid-template-columns: auto auto;
-  grid-column-gap: 60px;
+  grid-column-gap: 30px;
   border: solid;
   border-radius: 1em;
   border-bottom-left-radius: 0;
@@ -67,6 +67,7 @@
   margin: 0.5em;
   margin-bottom: 0;
   padding: 1em;
+  padding-left: 100px;
   align-items: center;
   padding-top: 0;
 }
@@ -78,7 +79,7 @@
 
 .grid-item2 {
   font-size: 22px;
-  padding-top: 200px;
+  padding-top: 175px;
 }
 
 .parrafo {
