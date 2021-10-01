@@ -75,7 +75,22 @@ body {
 
 .boton-search{
     padding: 1em;
-    margin: 0.5em;
+    padding-bottom: 3em;
+}
+
+#boton-search{
+    background-color: indigo;
+    border: none;
+    border-radius: 1em;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 .search{
@@ -128,6 +143,42 @@ hr{
     cursor: pointer;
 }
 
+table{
+    background-color: rgba(35, 0, 130, 0.178);
+    border: solid;
+    border-collapse: collapse;
+    border-color: indigo;
+    margin:0.5em;
+    margin-top: 0;
+    padding: 1em;
+    text-align: center;
+}
+
+th,td{
+    font-size: 20px;
+    width: 200px;
+}
+
+.boton-download{
+    margin: 0.5em;
+    margin-bottom: 5em;
+}
+
+#boton-download{
+    background-color: indigo;
+    border: none;
+    border-radius: 1em;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
 .grid-container {
     background-color: rgba(35, 0, 130, 0.178);
     display: grid;
@@ -149,12 +200,4 @@ hr{
     font-size: 15px;
   }
 
-.section{
-    background-color: rgba(35, 0, 130, 0.178);
-    border: solid;
-    border-radius: 1em;
-    border-color: indigo;
-    margin:0.5em;
-    margin-top: 0;
-    padding: 1em;
-}
+
