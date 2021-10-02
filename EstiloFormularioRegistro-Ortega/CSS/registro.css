@@ -3,12 +3,14 @@ body{
     padding: 5em;
     margin: 0.5em auto;
     text-align: center;
+    background: linear-gradient(to bottom right,  #69af9d83, #fffffd8c);
    /* line-height: normal; */
 }
 
 .container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgba(35, 0, 130, 0.178);
-    border: 1px solid #999;
+    border: indigo solid;
     border-radius: 6px;
     width: fit-content;
     margin: auto;
@@ -34,9 +36,14 @@ h1,p{
     padding: 0.5em;
     font-size: 1em;
     padding-right: 2em;
+    color: indigo;
 }
 
-#show{
+.campos{
+    padding-top: 1em;
+}
+
+#boton-cuenta{
     background-color: indigo;
     border: none;
     border-radius: 1em;
@@ -49,6 +56,10 @@ h1,p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+#boton-cuenta:hover{
+    color: rgb(226, 238, 55);
 }
 
 #ms{
