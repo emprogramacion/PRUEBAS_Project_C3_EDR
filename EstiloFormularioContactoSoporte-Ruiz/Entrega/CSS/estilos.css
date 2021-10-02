@@ -95,10 +95,10 @@
   }
   
   input{
+    text-align: left;
     background-color: #fbfbfb; 
     width: 408px; 
     height: 40px; 
-    border-radius: 15px;  
     border-style: solid; 
     border-width: 1px; 
     border-color: indigo; 
@@ -111,7 +111,6 @@
     background-color: #fbfbfb; 
     width: 405px; 
     height: 150px; 
-    border-radius: 15px;  
     border-style: solid; 
     border-width: 1px; 
     border-color: indigo; 
@@ -143,17 +142,9 @@
     cursor: pointer;    
   }
 
-.otro{
-    background-color: rgba(35, 0, 130, 0.178); 
-    border-color: rgb(130, 63, 0);   
-  }
 
   button:hover{
     background-color: rgba(35, 0, 130, 0.178);
-  }
-
-  .otro:hover{
-    background-color: rgba(255, 255, 255, 0.178);
   }
   button b{
     font-size: 15px;
@@ -204,7 +195,7 @@
   border-color: indigo;
   text-align: center;
   width: 90%;
-	max-width: 40%;
+	max-width: 30%;
 	margin: 10px auto;
 	box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
