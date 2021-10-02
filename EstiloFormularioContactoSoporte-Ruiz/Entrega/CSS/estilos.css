@@ -46,21 +46,23 @@
   .titulo {
     color: #ebebeb;
     font-family: 'Oswald', sans-serif;
-    font-size: 2rem;
+    font-size: 3rem;
     text-transform: uppercase;
-    height: 5%;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0;
+    padding-top: 0.2em;
+    padding-bottom: 0.6em;
   }
   
   .titulo img {
-    height: 120px;
+    height: 180px;
   }
   
   .subtitulo {
-    margin-top: -30px;
+    margin-top: -80px;
     color: #ebebeb;
     display: flex;
     align-items: center;
