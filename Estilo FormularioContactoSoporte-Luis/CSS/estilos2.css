@@ -135,6 +135,7 @@
   }
   
   label{
+    align-items: flex-start;
     display: block; 
     float: center;  
   }
@@ -151,9 +152,17 @@
     cursor: pointer;    
   }
 
+.otro{
+    background-color: rgba(35, 0, 130, 0.178); 
+    border-color: rgb(130, 63, 0);   
+  }
+
   button:hover{
     background-color: rgba(35, 0, 130, 0.178);
-    text-decoration: #44ab5e;
+  }
+
+  .otro:hover{
+    background-color: rgba(255, 255, 255, 0.178);
   }
   button b{
     color: #fff; 
