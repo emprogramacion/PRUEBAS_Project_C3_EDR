@@ -1,7 +1,7 @@
 * {
     font-family: Quicksand;
-    font-size: 22px;
-    color: rgba(0, 0, 0, 0.842);
+    font-size: 25px;
+    color: indigo;
   }
 
   .titulo {
@@ -143,6 +143,8 @@
   color: white;
   padding: 15px 32px;
   text-align: center;
+  border: 1px;
+  border-radius: 6px;
   text-decoration: none;
   display: inline-block;
   font-size: 15px;
@@ -156,6 +158,11 @@
 
 .button {
   background-color: indigo;
+}
+
+.formbutt:hover{
+  background-color: rgba(35, 0, 130, 0.178);
+  text-decoration: #44ab5e;
 }
 
 .button2 {
@@ -175,6 +182,7 @@
   position: relative;
   text-align: center;
   width: 163px;
+  border-radius: 6px;
 }
 
 .custom-input-file .input-file {
