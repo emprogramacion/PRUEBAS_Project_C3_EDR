@@ -84,7 +84,7 @@ a:hover{
 
 #boton-search{
     background-color: indigo;
-    border: none;
+    border: 1px indigo solid;
     border-radius: 1em;
     color: white;
     padding: 10px 20px;
@@ -98,7 +98,7 @@ a:hover{
 }
 
 #boton-search:hover{
-    color: rgb(226, 238, 55);
+    background-color: rgba(35, 0, 130, 0.452);
 }
 
 .search{
@@ -175,7 +175,7 @@ th,td{
 
 #boton-download{
     background-color: indigo;
-    border: none;
+    border: 1px indigo solid;
     border-radius: 1em;
     color: white;
     padding: 10px 20px;
@@ -189,7 +189,7 @@ th,td{
 }
 
 #boton-download:hover{
-    color: rgb(226, 238, 55);
+    background-color: rgba(35, 0, 130, 0.452);
 }
 
 .grid-container {
