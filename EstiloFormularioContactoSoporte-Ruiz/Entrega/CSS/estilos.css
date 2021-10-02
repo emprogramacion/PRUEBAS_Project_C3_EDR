@@ -97,7 +97,7 @@
   input{
     text-align: left;
     background-color: #fbfbfb; 
-    width: 408px; 
+    width: 90%; 
     height: 40px; 
     border-style: solid; 
     border-width: 1px; 
@@ -109,7 +109,7 @@
   
   textarea{
     background-color: #fbfbfb; 
-    width: 405px; 
+    width: 90%; 
     height: 150px; 
     border-style: solid; 
     border-width: 1px; 
@@ -138,7 +138,7 @@
     border-color: indigo; 
     border-style: solid; 
     border-radius: 15px;  
-    width: 420px;   
+    width: 90%;    
     cursor: pointer;    
   }
 
