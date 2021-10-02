@@ -1,7 +1,7 @@
 * {
     font-family: Quicksand;
     font-size: 25px;
-    color: rgba(0, 0, 0, 0.842);
+    color: indigo;
 }
 
 body {
@@ -68,6 +68,10 @@ body {
   margin-right: auto;
 }
 
+a:hover{
+    color: rgb(226, 238, 55);
+}
+
 .desc-search{
     margin: 0.5em;
     padding-left: 1em;
@@ -93,6 +97,10 @@ body {
     cursor: pointer;
 }
 
+#boton-search:hover{
+    color: rgb(226, 238, 55);
+}
+
 .search{
     display: flex;
     flex-direction: row;
@@ -108,7 +116,8 @@ body {
 
 .categoria2{
     padding-left: 1em;
-    width: 220px;
+    padding-right: 1em;
+    width: 227px;
 }
 
 .categoria3{
@@ -179,13 +188,17 @@ th,td{
     cursor: pointer;
 }
 
+#boton-download:hover{
+    color: rgb(226, 238, 55);
+}
+
 .grid-container {
     background-color: rgba(35, 0, 130, 0.178);
     display: grid;
     grid-template-columns: auto auto;
     grid-column-gap: 60px;
     border: solid;
-    border-radius: 1em;
+    border-radius: 6px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     border-color: indigo;
