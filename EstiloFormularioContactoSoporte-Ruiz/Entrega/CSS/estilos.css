@@ -18,7 +18,6 @@
     flex-direction: column;
   }
   
-  
   header,
   footer{
     background-color: rgba(35, 0, 130, 0.452);
@@ -37,6 +36,7 @@
     width: 100%; 
     height: auto;
   }
+
   .main{  
     align-items: center;
     justify-content: center;
@@ -68,17 +68,6 @@
     padding-left: 7em;
   }
   
-  .contact_form{  
-    width: 460px; 
-    height: auto;
-    margin: 80px auto;
-    border-radius: 10px;  
-    padding-top: 30px;
-    padding-bottom: 20px;  
-    background-color: #fbfbfb; 
-    padding-left: 30px; 
-  }
-  
   .MenuWrap {
     background-color: indigo;
     font-family: 'Oswald', sans-serif;
@@ -86,10 +75,6 @@
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-  }
-  
-  .pie .texto {
-    color: #ebebeb;
   }
   
   .menu-item{
@@ -135,9 +120,13 @@
   }
   
   label{
-    align-items: flex-start;
     display: block; 
-    float: center;  
+    float: center; 
+    padding: 1px; 
+    margin: 1px; 
+    font-size: 20px;
+    text-align: left;
+    padding-left: 15px;
   }
   
   button{
@@ -165,7 +154,10 @@
     background-color: rgba(255, 255, 255, 0.178);
   }
   button b{
-    color: #fff; 
+    font-size: 15px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
   }
 
   .section{
@@ -180,4 +172,43 @@
 
 .section div{
   text-align: center;
+}
+
+.grid-container {
+  background-color: rgba(35, 0, 130, 0.178);
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 60px;
+  border: solid;
+  border-radius: 6px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-color: indigo;
+  margin: 0.5em;
+  margin-bottom: 0;
+  padding: 1em;
+  align-items: center;
+}
+
+.item { 
+  grid-area: footer; 
+  font-size: 15px;
+}
+
+.section{
+  background-color: rgba(35, 0, 130, 0.178);
+  border: solid;
+  border-radius: 6px;
+  border-color: indigo;
+  text-align: center;
+  width: 90%;
+	max-width: 40%;
+	margin: 10px auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+strong h3{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  color: indigo;
 }

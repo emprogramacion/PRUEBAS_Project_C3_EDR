@@ -2,11 +2,11 @@
 <html lang="es">
     <head>
         <meta charset="utf-8">
-        <title>Contactar soporte</title>
-        <link rel="stylesheet" href="CSS/estilos2.css">
+        <title>Plantilla</title>
+        <link rel="stylesheet" href="CSS/estilos.css">
     </head>
     <body>
-        <div class="f-container fixed-hf">
+    <div id="header">
             <header>
                 <div class="Titulo">
                     <h1 class="titulo">
@@ -16,26 +16,26 @@
                         La Base de Datos de Malaria Aviar Trópical 
                     </h3>
                 </div>
-            </header>
+            
             <nav class="MenuWrap">
                 <div class="menu-item">
-                    <a href="../FormularioIniciarSesion/iniciar_sesion.html" class="ListItem">Cerrar sesión</a>
+                    <a href="#iniciar_sesion" class="ListItem">Cerrar sesión</a>
                 </div>
                 <div class="menu-item">
-                    <a href="../FormularioContactarSoporte/contactar_soporte.html" class="ListItem">Contáctanos</a>
+                    <a href="#contactar_soporte" class="ListItem">Contáctanos</a>
                 </div>
                 <div class="menu-item">
-                    <a href="../FormularioInformes/informes.html" class="ListItem">Consultas</a>
+                    <a href="#informes" class="ListItem">Consultas</a>
                 </div>
                 <div class="menu-item">
-                    <a href="../FormularioIngresoDatos/IngresoDatos.html" class="ListItem">Ingresa tus datos</a>
+                    <a href="#IngresoDatos" class="ListItem">Ingresa tus datos</a>
                 </div>        
             </nav>
-
-            <div class="main">
-            
-            <section class="section">
-            <div>
+            </header>
+            </div>
+            <div id="content">
+                <section class="section">
+                    <div class="main">
                 <form action="#" method="POST">
                     <strong>
                         <h3>Envía tu solicitud</h3>
@@ -57,17 +57,14 @@
 
                     <button type="submit" class="otro"><b>Otro</b></button>
                 </form>
-                </div>
-            </section>
             </div>
-            <footer>
-                <div class="pie">
-                    <div class="texto">
-                        Editores: Diana Gil-Vargas, Erasmo Martinez, Ricardo Ortega & Luis Ruiz<br>
-                        ©2021. All Rights Reserved
-                    </div>
+                </section>
+                </div>
+            <footer class="grid-container">
+                <div class="item">
+                    Editores: Diana Gil-Vargas, Erasmo Martinez, Ricardo Ortega & Luis Ruiz<br>
+                    ©2021. All Rights Reserved
                 </div>
             </footer>
-        </div>
     </body>
 </html>
