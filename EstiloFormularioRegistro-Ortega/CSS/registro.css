@@ -59,7 +59,7 @@ h1,p{
 }
 
 #boton-cuenta:hover{
-    color: rgb(226, 238, 55);
+    background-color: rgba(35, 0, 130, 0.452);
 }
 
 #ms{
