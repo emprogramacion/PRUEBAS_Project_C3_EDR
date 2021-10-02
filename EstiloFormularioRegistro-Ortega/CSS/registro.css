@@ -45,7 +45,7 @@ h1,p{
 
 #boton-cuenta{
     background-color: indigo;
-    border: none;
+    border: 1px indigo solid;
     border-radius: 1em;
     color: white;
     padding: 10px 20px;
