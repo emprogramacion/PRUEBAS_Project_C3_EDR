@@ -1,23 +1,14 @@
 * {
   font-family: Quicksand;
   font-size: 25px;
-  color: rgba(0, 0, 0, 0.842);
 }
   
 body{
-  margin: 0; 
-  border: 0;
   background: linear-gradient(to bottom right,  #69af9d83, #fffffd8c);
-  text-align: justify;
 }
 
-header{
+header, footer{
   background-color: rgba(35, 0, 130, 0.452);
-  position: fixed; 
-  width: 100%;
-  height: 150px;
-  left: 0;
-	top: 0;
 }
 
 .section{
@@ -35,15 +26,6 @@ header{
 	box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
 
-footer{
-  background-color: rgba(35, 0, 130, 0.452);
-}
-  
-.Titulo{  
-  width: 100%; 
-  height: auto;
-}
-
 .titulo img{
   height: 120px;
 }
@@ -55,12 +37,6 @@ footer{
   align-items: center;
   justify-content: center;
   padding-left: 7em;
-}
-
-.main{  
-  align-items: center;
-  justify-content: center;
-  align-content: center;
 }
   
 .titulo{
@@ -98,23 +74,27 @@ a:hover{
   color: rgb(226, 238, 55);
 }
 
-.grid-container {
+footer {
   background-color: rgba(35, 0, 130, 0.178);
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-column-gap: 60px;
   border: solid;
   border-radius: 6px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   border-color: indigo;
-  margin: 0.5em;
-  margin-bottom: 0;
-  padding: 1em;
-  align-items: center;
+  margin-right: 100% auto;
+  padding: 2em;
+  font-size: 15px;
+  text-align: right;
+  height: auto;
 }
 
-.item { 
-  grid-area: footer; 
-  font-size: 15px;
+/*Orden de los Divs*/
+.Principal{
+  position: relative;
+  height: 200vh;
+  padding: 5px;
+}
+.Encabezado{
+  position: sticky;
+  top: 0;
 }
