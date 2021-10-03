@@ -1,0 +1,120 @@
+* {
+  font-family: Quicksand;
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.842);
+}
+  
+body{
+  margin: 0; 
+  border: 0;
+  background: linear-gradient(to bottom right,  #69af9d83, #fffffd8c);
+  text-align: justify;
+}
+
+header{
+  background-color: rgba(35, 0, 130, 0.452);
+  position: fixed; 
+  width: 100%;
+  height: 150px;
+  left: 0;
+	top: 0;
+}
+
+.section{
+  background-color: rgba(35, 0, 130, 0.178);
+  border: solid;
+  border-radius: 6px;
+  border-color: indigo;
+  margin:1em;
+  margin-top: 200px;
+  padding: 1em;
+  text-align: center;
+  width: 90%;
+	max-width: 50%;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+footer{
+  background-color: rgba(35, 0, 130, 0.452);
+}
+  
+.Titulo{  
+  width: 100%; 
+  height: auto;
+}
+
+.titulo img{
+  height: 120px;
+}
+
+.subtitulo{
+  margin-top: -30px;
+  color: #ebebeb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 7em;
+}
+
+.main{  
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+  
+.titulo{
+  color: #ebebeb;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  height: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+  
+.MenuWrap{
+  background-color: indigo;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+  
+.menu-item{
+  border-left: #ebebeb solid;
+  padding: 0.5em;
+}
+  
+.ListItem, .LastItem{
+  color: #ebebeb;
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgb(226, 238, 55);
+}
+
+.grid-container {
+  background-color: rgba(35, 0, 130, 0.178);
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 60px;
+  border: solid;
+  border-radius: 6px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-color: indigo;
+  margin: 0.5em;
+  margin-bottom: 0;
+  padding: 1em;
+  align-items: center;
+}
+
+.item { 
+  grid-area: footer; 
+  font-size: 15px;
+}
