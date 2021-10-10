@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../CSS/ingreso_datos.css">
+    <script src="../../JavaScript/IngresoDatos.js"></script>
     <title>TAM DATABASE</title>
 
 </head>
@@ -59,34 +60,34 @@
 
             <div class="grid-item">
                 <label for="latitud"> Latitud (decimal):*</label>
-                <input type="text" size="35" name="latitud" required>
+                <input type="text" size="35" name="latitud" id= "latitud" required>
             </div>
             <div class="grid-item">
                 <label for="orden"> Orden:*</label>
-                <input type="text" size="35" name="orden" required/>
+                <input type="text" size="35" name="orden" id="orden" required/>
             </div>
 
             <div class="grid-item">
                 <label for="longitud"> Longitud (decimal):*</label>
-               <input type="text" size="35" name="longitud" required>
+               <input type="text" size="35" name="longitud" id="longitud" required>
             </div>
             <div class="grid-item">
                 <label for="familia" > Familia:</label>
-                <input type="text" size="35" name="familia"/>
+                <input type="text" size="35" name="familia" id="familia"/>
             </div>
 
             <div class="grid-item">
                 <label for="pais" > País:*</label>
-                <input type="text" size="35" name="pais" required/>
+                <input type="text" size="35" name="pais" id="pais" required/>
             </div>
             <div class="grid-item">
                 <label for="especie" > Especie:*</label>
-                <input type="text" size="35" name="especie" required/>
+                <input type="text" size="35" name="especie" id= "especie" required/>
             </div>
 
             <div class="grid-item">
                 <label for="localidad"> Localidad:</label>
-                <input type="text" size="35" name="localidad"/>
+                <input type="text" size="35" name="localidad" id="localidad"/>
             </div>
             <div class="grid-item">
                 <h3>Información Taxonómica del Parásito</h3>
@@ -94,11 +95,11 @@
 
             <div class="grid-item">
                 <label for="elevacion"> Elevación (mts):</label>
-                <input type="text" size="35" name="elevacion"/>
+                <input type="text" size="35" name="elevacion" id="elevacion"/>
             </div>
             <div class="grid-item">
                 <label for="genero"> Género:*</label>
-                <input type="text" size="35" name="genero" required/>
+                <input type="text" size="35" name="genero" id = "genero" required/>
             </div>
 
             <div class="grid-item">
@@ -110,7 +111,7 @@
 
             <div class="grid-item">
                 <label for="codigo genbank"> Código Genbank:*</label>
-                <input type="text" size="35" name="Codigo Genbank" required/>
+                <input type="text" size="35" name="Codigo Genbank" id="geob" required/>
             </div>
             <div class="grid-item">
                 <p>Si ha realizado una publicación ingrese la cita bibliográfica
@@ -120,18 +121,18 @@
 
             <div class="grid-item">
                 <label for="marcador molecular"> Marcador Molecular:*</label>
-                <input type="text" size="35" name="marcador molecular" required/>
+                <input type="text" size="35" name="marcador molecular" id = "marmol"required/>
             </div>
             <div class="grid-item">
                 <label for="referencia"> Referencia:*</label>
-                <input type="text" size="35" name="referencia" required/>
+                <input type="text" size="35" name="referencia" id ="referencia" required/>
             </div>
 
             <div class="grid-item">
                 <label for="text">*Campos requeridos</label>
             </div>
             <div class="grid-item">
-                <button class="button formbutt" type="submit">Ingresar Datos</button>
+                <button onclick="datos_registrados()" class="button formbutt" type="submit">Ingresar Datos</button>
             </div>                        
         </div>
     </form>
