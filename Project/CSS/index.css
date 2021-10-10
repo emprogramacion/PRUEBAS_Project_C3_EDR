@@ -169,7 +169,7 @@ body {
 }
 
 /*Estilo a la palabra del botón principal*/
-button b{
+#button b{
   font-size: 15px;
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

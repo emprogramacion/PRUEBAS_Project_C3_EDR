@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="../../CSS/index.css" rel="stylesheet">
+        <script src="../../JavaScript/index.js"></script>
         <title>Iniciar Sesión - TAM DATABASE</title>
     </head>
     <body>
@@ -35,16 +36,16 @@
             </div>
         </div>
         <section id="formulario_iniciar_sesion">
-            <form action="iniciar_sesion.html" method="POST">
+            <form action="../FormularioIngresoDatos/IngresoDatos.html" method="POST">
                 <div class="msje_inicia_sesion">
                     <h3>INICIAR SESION</h3>
                 </div>
                 <hr>
                 <div class="campos"> 
-                    <input class="inputs" type="text" placeholder="Usuario" size="30" minlength="5" maxlength="20" required pattern="[.A-Za-z0-9]+"> 
+                    <input class="inputs" id="user" type="text" placeholder="Usuario" size="30" minlength="5" maxlength="20" required pattern="[.A-Za-z0-9]+"> 
                 </div>
                 <div class="campos"> 
-                    <input class="inputs" type="password" placeholder="Contraseña" size="30" minlength="5" maxlength="20" required pattern="[.A-Za-z0-9]+"> 
+                    <input class="inputs" id="password" type="password" placeholder="Contraseña" size="30" minlength="5" maxlength="20" required pattern="[.A-Za-z0-9]+"> 
                 </div>
                 
                 <div id="check_div">
@@ -63,7 +64,7 @@
                     <a href="../FormularioRecuperarUsuario/recuperar_usuario.html" id="link" >Recuperar usuario y/o contraseña</a>
                 </div>
                 <div class="ubicar">
-                    <button type="submit" id="button"  value="Ingresar"><b>Ingresar</b></button>
+                    <button id="button" onclick="InicioSesion()"><b>Ingresar</b></button>
                     <a href="#modal" id="button2"><label>Registrate</label></a>
                 </div>
             </form>
@@ -88,33 +89,27 @@
                 <p><strong>Ingrese los siguientes datos para registrarse</strong></p>
             </div>
             <section>
-                <form action="" method="POST">
+                <form id="form-reg" action="../Index/index.html" method="POST">
                     <div class="formulario">
                         <div class="campo">
-                            <input class="input" type="text" placeholder="Nombres"  size="30" minlength="3" maxlength="30" required> 
+                            <input class="input" id="nombres" type="text" placeholder="Nombres"  size="30" minlength="3" maxlength="30" required> 
                         </div>
                         <div class="campo"> 
-                            <input class="input" type="text" placeholder="Apellidos" size="30" minlength="3" maxlength="30" required> 
+                            <input class="input" id="apellidos" type="text" placeholder="Apellidos" size="30" minlength="3" maxlength="30" required> 
                         </div>
                         <div class="campo"> 
-                            <input class="input" type="email" placeholder="Correo electrónico" size="30" required> 
+                            <input class="input" id="correo" type="email" placeholder="Correo electrónico" size="30" required> 
                         </div>
                         <div class="campo"> 
-                            <input class="input" type="text" placeholder="Usuario" size="30" minlength="5" maxlength="20" required pattern="[.A-Za-z0-9]+"> 
+                            <input class="input" id="usuario" type="text" placeholder="Usuario" size="30" minlength="5" maxlength="20" required pattern="[.A-Za-z0-9]+"> 
                         </div>
                         <div class="campo"> 
-                            <input class="input" type="password" placeholder="Contraseña" size="30" minlength="5" maxlength="20" required pattern="[.A-Za-z0-9]+"> 
+                            <input class="input" id="contraseña" type="password" placeholder="Contraseña" size="30" minlength="5" maxlength="20" required pattern="[.A-Za-z0-9]+"> 
                         </div>
                     </div>
                         <div class="campo">
-                            <input type="submit" id="boton-cuenta" value="Crear cuenta">
+                            <input type="submit" id="boton-cuenta" value="Crear cuenta" onclick="RegistroExitoso()">
                         </div>
-                        <!--   <dialog id="ms">
-                                <p>¡Registro exitoso!</p>
-                                <input type="submit" value="Ok" id="close" onclick="document.getElementById('ms').close()">
-                            </dialog>
-                            <input type="submit" value="Crear cuenta" id="show" onclick="document.getElementById('ms').show()">                    
-                         -->   
                 </form>
             </section>
         </div>

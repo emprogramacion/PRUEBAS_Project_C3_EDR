@@ -5,8 +5,19 @@ function RegistroExitoso(){
     var usuario=document.getElementById('usuario').value;
     var contraseña=document.getElementById('contraseña').value;
     if(nombres==='' || apellidos==='' || correo==='' || usuario==='' || contraseña===''){
-        alert('Llena todos los campos')
+        alert('Completa todos los campos para registrarse');
     }else{
-        alert('Registro exitoso');
+        var datos= 'Sus datos son:\n Nombres: '+nombres+'\n Apellidos: '+apellidos+'\n Correo: '+correo+'\n Usuario: '+usuario+'\n Contraseña: '+contraseña ;
+        alert('Registro exitoso \n' +datos);   
     }   
+}
+
+function InicioSesion(){
+    var user=document.getElementById('user').value;
+    var password=document.getElementById('password').value;
+    if(user==='' || password===''){
+        alert('Completa todos los campos para iniciar sesion');
+    }else{
+        alert('Bienvenido '+user+ ' a TAM DATABASE');
+    } 
 }

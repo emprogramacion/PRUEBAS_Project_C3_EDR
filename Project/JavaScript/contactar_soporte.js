@@ -9,6 +9,6 @@ function contactar_soporte(){
     if(nombre === '' || doc === '' || email === '' || desc === ''){
         alert("Diligencia los campos requeridos para contactarse con el soporte");
     }else {
-        alert("Solicitud al soporte técnico enviada, la respuesta a su solicitud será via email \n Sus datos son \n"+datos);        
+        alert("Solicitud al soporte técnico enviada, la respuesta a su solicitud será via email. \nSus datos son: \n "+datos);        
     }
 }

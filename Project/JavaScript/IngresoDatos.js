@@ -21,7 +21,7 @@ function datos_registrados(){
     || codigo_genbank === '' || marcador_molecular === '' || referencia === ''){
         alert("Los campos obligatorios no pueden estar vacíos");
     }else {
-        alert("Registro de datos biológicos exitoso \n" + datos );               
+        alert("Registro de datos biológicos exitoso \n " + datos );               
     }
 
 }
