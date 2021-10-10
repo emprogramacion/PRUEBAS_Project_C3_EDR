@@ -1,0 +1,3 @@
+SELECT * FROM mydb.support;
+INSERT INTO `mydb`.`support` (`id`, `id_user`, `decription`, `email`, `identification`, `created_at`) VALUES ('3', '1', 'Problema cuenta', 'riorte@gmail.com', '1145437290', DATE(NOW()), DATE(NOW()));
+INSERT INTO `mydb`.`support` (`id`, `id_user`, `decription`, `email`, `identification`, `created_at`) VALUES ('8', '2', 'Dudas al Ingresar Datos', 'smedina@yahoo.com', '95542379', DATE(NOW()), DATE(NOW()));

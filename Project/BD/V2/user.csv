@@ -1,0 +1,8 @@
+id,names,last_names,email,password,state,roles_id,created_at,updated_at
+1,Diana,Gil,lore@gmail.com,23678,1,1,2021-10-09,2021-10-09
+2,Ricardo,Ortega,rior34@gmail.com,53267,1,2,2021-10-09,2021-10-09
+3,Luis,Ruiz,lruiz24@hotmail.com,32965,1,2,2021-10-09,2021-10-09
+4,Erasmo,Martinez,elmono@hotmail.com,21578,1,2,2021-10-09,2021-10-09
+5,Eduardo,Hernandez,elnene1@gmail.com,98234,1,2,2021-10-09,2021-10-09
+6,Leidy,Valderrama,leiva@hotmail.com,10463,1,2,2021-10-09,2021-10-09
+7,Sergio,Medina,semedi@yahoo.com,89434,1,2,2021-10-09,2021-10-09
