@@ -4,6 +4,6 @@ function respuesta_recuperacion (){
     if (email === ''){
         alert("Por favor digite el email");
     }else {
-        alert("Hemos enviado a su email un mensaje para reestablecer su usuario y/o contraseña");
+        alert("Hemos enviado un mensaje al correo " + email + " para reestablecer su usuario y/o contraseña");
     }
 }

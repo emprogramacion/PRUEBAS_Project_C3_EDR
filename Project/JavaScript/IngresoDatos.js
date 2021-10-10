@@ -12,21 +12,16 @@ function datos_registrados(){
     var marcador_molecular = document.getElementById('marmol').value;
     var referencia = document.getElementById('referencia').value;
 
-    console.log ("Latitud: "+ latitud + " - Longitud: "+longitud + " - Orden: " + orden + " - Familia: " + familia
-    + " - Pais: "+ pais + " - Especie: "+ especie + " - Localidad: "+ localidad + " - Elevacion: "+ elevacion 
-    + " - Genero: "+ genero + " - Codigo genbank: "+ codigo_genbank + " - Marcador molecular: "+marcador_molecular
-    + " - Referencia: "+referencia);
-
-    alert("Latitud: "+ latitud + " - Longitud: "+longitud + " - Orden: " + orden + " - Familia: " + familia
-    + " - Pais: "+ pais + " - Especie: "+ especie + " - Localidad: "+ localidad + " - Elevacion: "+ elevacion 
-    + " - Genero: "+ genero + " - Codigo genbank: "+ codigo_genbank + " - Marcador molecular: "+marcador_molecular
-    + " - Referencia: "+referencia);
+    var datos="Latitud: "+ latitud + "\n Longitud: "+longitud + "\n Orden: " + orden + "\n Familia: " + familia
+    + "\n Pais: "+ pais + "\n Especie: "+ especie + "\n Localidad: "+ localidad + "\n Elevacion: "+ elevacion 
+    + "\n Genero: "+ genero + "\n Codigo genbank: "+ codigo_genbank + "\n Marcador molecular: "+marcador_molecular
+    + "\n Referencia: "+referencia;
 
     if (latitud === '' || orden === '' || longitud === '' || pais === '' || especie === '' || genero === ''
     || codigo_genbank === '' || marcador_molecular === '' || referencia === ''){
-        alert("Registro de datos biológicos exitoso");
-    }else {
         alert("Los campos obligatorios no pueden estar vacíos");
+    }else {
+        alert("Registro de datos biológicos exitoso \n" + datos );               
     }
 
 }
