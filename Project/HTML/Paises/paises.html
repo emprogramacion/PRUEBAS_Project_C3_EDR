@@ -1,0 +1,111 @@
+<!DOCTYPE html lang="es">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../../CSS/estilo.css" rel="stylesheet">
+        <script src="../../JavaScript/index.js"></script>
+        <title>Paises - TAM DATABASE</title>
+    </head>
+    <body>
+    <div class="body">
+        <header>
+            <div>
+                <h1 class="titulo">
+                   <img src="../../Imagenes/LogoTAM.svg" alt="Logo"> Tam Database
+                </h1>
+                <h3 class="subtitulo">
+                    La Base de Datos de Malaria Aviar Trópical 
+                </h3>
+            </div>
+        </header>
+        <nav class="MenuWrap">
+            <div class="menu-item">
+                <a href="../FormularioContactarSoporte/contactar_soporte.html" class="ListItem">Contáctanos</a>
+            </div>
+            <div class="menu-item">
+                <a href="../FormularioInformes/informes.html" class="ListItem">Consultas</a>
+            </div> 
+        </nav>
+        <main class="iniciar_sesion">
+            <section>
+                <div>       
+                    <table class="informe" border="1">
+                        <thead>
+                            <tr>
+                                <th>ID</th>	
+                                <th>NOMBRE</th>     
+                                <th>Acciones</th>        
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Colombia</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Ecuador</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Venezuela</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Perú</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Bolivia</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Panamá</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <a href="#modal" id="button2"><label>Agregar</label></a>
+                </div>
+            </section> 
+        </main>
+        <footer class="grid-container">
+            <div class="item">
+                Editores: Diana Gil-Vargas, Erasmo Martinez, Ricardo Ortega, Luis Ruiz, Leidy Valderrama & Jorge Hernandez<br>
+                ©2021. All Rights Reserved
+            </div>
+        </footer>
+    </div>
+    <!--Formulario de Registro-->
+    <aside id="modal" class="modal">    
+        <div class="container">
+            <header class="header">
+                <a href="#" class="close-modal">X</a>
+                <h3>Registrar Pais</h3>
+            </header>
+            <hr>
+            <section>
+                <form id="form-reg" action="#" method="POST">
+                    <div class="formulario">
+                        <div class="campo">
+                            <input class="input" id="nombrePais" type="text" placeholder="Nombre Pais" minlength="3" maxlength="30" required> 
+                        </div>
+                    </div>
+                        <div class="campo">
+                            <input type="submit" id="boton-pais" value="Agregar">
+                        </div>
+                </form>
+            </section>
+        </div>
+    </aside>    
+
+
+    </body>
+</html>
