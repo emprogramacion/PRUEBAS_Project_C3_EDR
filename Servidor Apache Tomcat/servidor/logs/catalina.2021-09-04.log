@@ -1,0 +1,753 @@
+04-Sep-2021 19:22:54.403 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.8
+04-Sep-2021 19:22:54.405 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 27 2018 19:32:00 UTC
+04-Sep-2021 19:22:54.405 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.8.0
+04-Sep-2021 19:22:54.407 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+04-Sep-2021 19:22:54.408 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-Sep-2021 19:22:54.408 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-Sep-2021 19:22:54.408 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_65\jre
+04-Sep-2021 19:22:54.408 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+04-Sep-2021 19:22:54.408 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-Sep-2021 19:22:54.408 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\UIS\servidor
+04-Sep-2021 19:22:54.408 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\UIS\servidor
+04-Sep-2021 19:22:54.408 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\UIS\servidor\conf\logging.properties
+04-Sep-2021 19:22:54.408 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Sep-2021 19:22:54.408 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|FDBAPRCISFSD613
+04-Sep-2021 19:22:54.408 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+04-Sep-2021 19:22:54.408 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Sep-2021 19:22:54.408 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+04-Sep-2021 19:22:54.408 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\UIS\servidor
+04-Sep-2021 19:22:54.409 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\UIS\servidor
+04-Sep-2021 19:22:54.409 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\UIS\servidor\temp
+04-Sep-2021 19:22:54.409 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.16] con la versión APR [1.6.3].
+04-Sep-2021 19:22:54.409 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true].
+04-Sep-2021 19:22:54.409 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+04-Sep-2021 19:22:55.126 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.0.2m  2 Nov 2017]
+04-Sep-2021 19:22:55.229 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-Sep-2021 19:22:55.246 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+04-Sep-2021 19:22:55.252 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+04-Sep-2021 19:22:55.254 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+04-Sep-2021 19:22:55.255 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1120 ms
+04-Sep-2021 19:22:55.279 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+04-Sep-2021 19:22:55.279 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.8
+04-Sep-2021 19:22:55.287 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [E:\UIS\servidor\webapps\docs] de la aplicación web
+04-Sep-2021 19:22:55.900 ADVERTENCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [280] milliseconds.
+04-Sep-2021 19:22:55.916 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UIS\servidor\webapps\docs] has finished in [629] ms
+04-Sep-2021 19:22:55.917 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [E:\UIS\servidor\webapps\examples] de la aplicación web
+04-Sep-2021 19:22:56.438 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UIS\servidor\webapps\examples] has finished in [521] ms
+04-Sep-2021 19:22:56.439 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [E:\UIS\servidor\webapps\host-manager] de la aplicación web
+04-Sep-2021 19:22:56.465 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UIS\servidor\webapps\host-manager] has finished in [26] ms
+04-Sep-2021 19:22:56.466 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [E:\UIS\servidor\webapps\manager] de la aplicación web
+04-Sep-2021 19:22:56.486 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UIS\servidor\webapps\manager] has finished in [20] ms
+04-Sep-2021 19:22:56.486 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [E:\UIS\servidor\webapps\ROOT] de la aplicación web
+04-Sep-2021 19:22:56.505 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UIS\servidor\webapps\ROOT] has finished in [19] ms
+04-Sep-2021 19:22:56.508 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-Sep-2021 19:22:56.518 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+04-Sep-2021 19:22:56.522 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in 1267 ms
+04-Sep-2021 19:25:19.244 INFORMACIÓN [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml]
+04-Sep-2021 19:25:19.246 ADVERTENCIA [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/DemoUIS] in deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has been ignored
+04-Sep-2021 19:25:19.275 INFORMACIÓN [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has finished in [31] ms
+04-Sep-2021 19:25:19.279 INFORMACIÓN [http-nio-8080-exec-4] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DemoUIS]] after start() had already been called. The second call will be ignored.
+04-Sep-2021 19:25:19.981 INFORMACIÓN [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/DemoUIS]
+04-Sep-2021 19:25:19.995 INFORMACIÓN [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml]
+04-Sep-2021 19:25:19.996 ADVERTENCIA [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/DemoUIS] in deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has been ignored
+04-Sep-2021 19:25:20.019 INFORMACIÓN [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has finished in [23] ms
+04-Sep-2021 19:25:20.021 INFORMACIÓN [http-nio-8080-exec-3] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DemoUIS]] after start() had already been called. The second call will be ignored.
+04-Sep-2021 19:26:07.104 INFORMACIÓN [http-nio-8080-exec-10] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 19:26:07.136 INFORMACIÓN [http-nio-8080-exec-10] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 19:26:09.470 INFORMACIÓN [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 19:26:09.486 INFORMACIÓN [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 19:32:44.494 INFORMACIÓN [http-nio-8080-exec-10] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 19:32:44.518 INFORMACIÓN [http-nio-8080-exec-10] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 19:33:13.857 INFORMACIÓN [http-nio-8080-exec-22] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 19:33:13.877 INFORMACIÓN [http-nio-8080-exec-22] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 19:33:14.021 INFORMACIÓN [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 19:33:14.036 INFORMACIÓN [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 19:34:41.020 INFORMACIÓN [http-nio-8080-exec-19] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 19:34:41.040 INFORMACIÓN [http-nio-8080-exec-19] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 19:34:46.405 INFORMACIÓN [http-nio-8080-exec-23] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/DemoUIS]
+04-Sep-2021 19:34:46.417 INFORMACIÓN [http-nio-8080-exec-22] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml]
+04-Sep-2021 19:34:46.418 ADVERTENCIA [http-nio-8080-exec-22] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/DemoUIS] in deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has been ignored
+04-Sep-2021 19:34:46.447 INFORMACIÓN [http-nio-8080-exec-22] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has finished in [30] ms
+04-Sep-2021 19:34:46.450 INFORMACIÓN [http-nio-8080-exec-24] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DemoUIS]] after start() had already been called. The second call will be ignored.
+04-Sep-2021 19:36:57.767 INFORMACIÓN [http-nio-8080-exec-37] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 19:36:57.790 INFORMACIÓN [http-nio-8080-exec-37] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 19:37:05.226 INFORMACIÓN [http-nio-8080-exec-31] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/DemoUIS]
+04-Sep-2021 19:37:05.237 INFORMACIÓN [http-nio-8080-exec-28] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml]
+04-Sep-2021 19:37:05.238 ADVERTENCIA [http-nio-8080-exec-28] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/DemoUIS] in deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has been ignored
+04-Sep-2021 19:37:05.258 INFORMACIÓN [http-nio-8080-exec-28] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has finished in [21] ms
+04-Sep-2021 19:37:05.260 INFORMACIÓN [http-nio-8080-exec-37] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DemoUIS]] after start() had already been called. The second call will be ignored.
+04-Sep-2021 19:38:26.154 INFORMACIÓN [http-nio-8080-exec-33] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/DemoUIS]
+04-Sep-2021 19:38:39.140 INFORMACIÓN [http-nio-8080-exec-45] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml]
+04-Sep-2021 19:38:39.142 ADVERTENCIA [http-nio-8080-exec-45] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/DemoUIS] in deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has been ignored
+04-Sep-2021 19:38:39.165 INFORMACIÓN [http-nio-8080-exec-45] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has finished in [25] ms
+04-Sep-2021 19:38:39.167 INFORMACIÓN [http-nio-8080-exec-33] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DemoUIS]] after start() had already been called. The second call will be ignored.
+04-Sep-2021 19:43:14.824 INFORMACIÓN [http-nio-8080-exec-48] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/DemoUIS]
+04-Sep-2021 19:43:14.835 INFORMACIÓN [http-nio-8080-exec-51] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml]
+04-Sep-2021 19:43:14.836 ADVERTENCIA [http-nio-8080-exec-51] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/DemoUIS] in deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has been ignored
+04-Sep-2021 19:43:14.855 INFORMACIÓN [http-nio-8080-exec-51] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has finished in [19] ms
+04-Sep-2021 19:43:14.857 INFORMACIÓN [http-nio-8080-exec-49] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DemoUIS]] after start() had already been called. The second call will be ignored.
+04-Sep-2021 19:59:56.573 INFORMACIÓN [http-nio-8080-exec-62] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 19:59:56.604 INFORMACIÓN [114] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 19:59:56.768 INFORMACIÓN [http-nio-8080-exec-66] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 19:59:56.782 INFORMACIÓN [http-nio-8080-exec-66] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 20:00:23.920 INFORMACIÓN [http-nio-8080-exec-59] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/DemoUIS]
+04-Sep-2021 20:00:23.936 INFORMACIÓN [http-nio-8080-exec-66] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml]
+04-Sep-2021 20:00:23.937 ADVERTENCIA [http-nio-8080-exec-66] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/DemoUIS] in deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has been ignored
+04-Sep-2021 20:00:24.170 INFORMACIÓN [http-nio-8080-exec-66] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has finished in [233] ms
+04-Sep-2021 20:00:24.172 INFORMACIÓN [http-nio-8080-exec-63] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DemoUIS]] after start() had already been called. The second call will be ignored.
+04-Sep-2021 20:01:45.038 INFORMACIÓN [http-nio-8080-exec-78] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 20:01:45.075 INFORMACIÓN [http-nio-8080-exec-78] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 20:01:45.503 INFORMACIÓN [http-nio-8080-exec-70] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 20:01:45.519 INFORMACIÓN [http-nio-8080-exec-70] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 20:04:08.011 INFORMACIÓN [http-nio-8080-exec-71] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 20:04:08.039 INFORMACIÓN [http-nio-8080-exec-71] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 20:04:08.421 INFORMACIÓN [http-nio-8080-exec-70] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 20:04:08.434 INFORMACIÓN [http-nio-8080-exec-70] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 20:04:54.244 INFORMACIÓN [http-nio-8080-exec-81] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 20:04:54.262 INFORMACIÓN [http-nio-8080-exec-81] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 20:05:00.863 INFORMACIÓN [http-nio-8080-exec-70] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 20:05:00.879 INFORMACIÓN [http-nio-8080-exec-70] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 20:05:01.063 INFORMACIÓN [http-nio-8080-exec-72] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 20:05:01.077 INFORMACIÓN [http-nio-8080-exec-72] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 20:06:10.759 INFORMACIÓN [http-nio-8080-exec-82] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 20:06:10.782 INFORMACIÓN [http-nio-8080-exec-82] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 20:06:32.777 INFORMACIÓN [http-nio-8080-exec-82] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/DemoUIS]
+04-Sep-2021 20:06:32.808 INFORMACIÓN [http-nio-8080-exec-80] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml]
+04-Sep-2021 20:06:32.810 ADVERTENCIA [http-nio-8080-exec-80] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/DemoUIS] in deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has been ignored
+04-Sep-2021 20:06:32.831 INFORMACIÓN [http-nio-8080-exec-80] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has finished in [23] ms
+04-Sep-2021 20:06:32.833 INFORMACIÓN [http-nio-8080-exec-87] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DemoUIS]] after start() had already been called. The second call will be ignored.
+04-Sep-2021 20:07:55.688 INFORMACIÓN [http-nio-8080-exec-91] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 20:07:55.717 INFORMACIÓN [http-nio-8080-exec-91] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 20:07:56.172 INFORMACIÓN [http-nio-8080-exec-92] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 20:07:56.189 INFORMACIÓN [http-nio-8080-exec-92] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 20:07:56.528 INFORMACIÓN [http-nio-8080-exec-91] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 20:07:56.544 INFORMACIÓN [http-nio-8080-exec-91] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 20:07:57.292 INFORMACIÓN [http-nio-8080-exec-92] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 20:07:57.319 INFORMACIÓN [http-nio-8080-exec-92] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 20:07:57.661 INFORMACIÓN [http-nio-8080-exec-88] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 20:07:57.681 INFORMACIÓN [http-nio-8080-exec-88] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 20:08:24.112 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+04-Sep-2021 20:08:24.112 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-Sep-2021 20:08:24.341 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+04-Sep-2021 20:08:24.554 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+04-Sep-2021 20:08:24.564 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-Sep-2021 20:08:24.566 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+04-Sep-2021 20:08:24.567 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+04-Sep-2021 20:08:24.568 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+04-Sep-2021 20:27:40.853 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.8
+04-Sep-2021 20:27:40.855 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 27 2018 19:32:00 UTC
+04-Sep-2021 20:27:40.855 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.8.0
+04-Sep-2021 20:27:40.857 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+04-Sep-2021 20:27:40.857 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+04-Sep-2021 20:27:40.857 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+04-Sep-2021 20:27:40.858 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_65\jre
+04-Sep-2021 20:27:40.858 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+04-Sep-2021 20:27:40.858 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-Sep-2021 20:27:40.858 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\UIS\servidor
+04-Sep-2021 20:27:40.858 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\UIS\servidor
+04-Sep-2021 20:27:40.858 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\UIS\servidor\conf\logging.properties
+04-Sep-2021 20:27:40.858 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Sep-2021 20:27:40.858 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|FDBAPRCISFSD613
+04-Sep-2021 20:27:40.858 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+04-Sep-2021 20:27:40.858 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Sep-2021 20:27:40.858 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+04-Sep-2021 20:27:40.858 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\UIS\servidor
+04-Sep-2021 20:27:40.858 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\UIS\servidor
+04-Sep-2021 20:27:40.858 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\UIS\servidor\temp
+04-Sep-2021 20:27:40.858 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.16] con la versión APR [1.6.3].
+04-Sep-2021 20:27:40.858 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true].
+04-Sep-2021 20:27:40.859 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+04-Sep-2021 20:27:41.446 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.0.2m  2 Nov 2017]
+04-Sep-2021 20:27:41.533 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-Sep-2021 20:27:41.547 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+04-Sep-2021 20:27:41.551 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+04-Sep-2021 20:27:41.552 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+04-Sep-2021 20:27:41.552 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1343 ms
+04-Sep-2021 20:27:41.588 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+04-Sep-2021 20:27:41.588 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.8
+04-Sep-2021 20:27:41.593 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml]
+04-Sep-2021 20:27:41.608 ADVERTENCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/DemoUIS] in deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has been ignored
+04-Sep-2021 20:27:42.377 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+04-Sep-2021 20:27:42.578 ADVERTENCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [185] milliseconds.
+04-Sep-2021 20:27:42.588 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has finished in [995] ms
+04-Sep-2021 20:27:42.588 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [E:\UIS\servidor\webapps\docs] de la aplicación web
+04-Sep-2021 20:27:42.754 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UIS\servidor\webapps\docs] has finished in [166] ms
+04-Sep-2021 20:27:42.755 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [E:\UIS\servidor\webapps\examples] de la aplicación web
+04-Sep-2021 20:27:44.810 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UIS\servidor\webapps\examples] has finished in [2.056] ms
+04-Sep-2021 20:27:44.810 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [E:\UIS\servidor\webapps\host-manager] de la aplicación web
+04-Sep-2021 20:27:44.835 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UIS\servidor\webapps\host-manager] has finished in [25] ms
+04-Sep-2021 20:27:44.835 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [E:\UIS\servidor\webapps\manager] de la aplicación web
+04-Sep-2021 20:27:44.856 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UIS\servidor\webapps\manager] has finished in [21] ms
+04-Sep-2021 20:27:44.856 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [E:\UIS\servidor\webapps\ROOT] de la aplicación web
+04-Sep-2021 20:27:44.871 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UIS\servidor\webapps\ROOT] has finished in [15] ms
+04-Sep-2021 20:27:44.872 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-Sep-2021 20:27:44.878 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+04-Sep-2021 20:27:44.880 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in 3326 ms
+04-Sep-2021 20:27:47.025 INFORMACIÓN [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/DemoUIS]
+04-Sep-2021 20:27:47.048 INFORMACIÓN [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml]
+04-Sep-2021 20:27:47.049 ADVERTENCIA [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/DemoUIS] in deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has been ignored
+04-Sep-2021 20:27:47.448 INFORMACIÓN [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has finished in [400] ms
+04-Sep-2021 20:27:47.452 INFORMACIÓN [http-nio-8080-exec-9] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DemoUIS]] after start() had already been called. The second call will be ignored.
+04-Sep-2021 20:28:09.394 INFORMACIÓN [http-nio-8080-exec-11] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 20:28:09.703 INFORMACIÓN [http-nio-8080-exec-11] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 20:28:13.073 INFORMACIÓN [http-nio-8080-exec-12] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/DemoUIS]
+04-Sep-2021 20:28:13.101 INFORMACIÓN [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml]
+04-Sep-2021 20:28:13.102 ADVERTENCIA [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/DemoUIS] in deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has been ignored
+04-Sep-2021 20:28:13.465 INFORMACIÓN [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has finished in [363] ms
+04-Sep-2021 20:28:13.468 INFORMACIÓN [http-nio-8080-exec-1] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DemoUIS]] after start() had already been called. The second call will be ignored.
+04-Sep-2021 20:29:11.022 INFORMACIÓN [http-nio-8080-exec-21] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/DemoUIS]
+04-Sep-2021 20:31:28.251 INFORMACIÓN [http-nio-8080-exec-20] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml]
+04-Sep-2021 20:31:28.252 ADVERTENCIA [http-nio-8080-exec-20] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/DemoUIS] in deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has been ignored
+04-Sep-2021 20:31:28.625 INFORMACIÓN [http-nio-8080-exec-20] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has finished in [374] ms
+04-Sep-2021 20:31:28.628 INFORMACIÓN [http-nio-8080-exec-21] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DemoUIS]] after start() had already been called. The second call will be ignored.
+04-Sep-2021 20:32:36.838 INFORMACIÓN [http-nio-8080-exec-34] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/DemoUIS]
+04-Sep-2021 20:32:36.850 INFORMACIÓN [http-nio-8080-exec-32] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml]
+04-Sep-2021 20:32:36.851 ADVERTENCIA [http-nio-8080-exec-32] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/DemoUIS] in deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has been ignored
+04-Sep-2021 20:32:37.196 INFORMACIÓN [http-nio-8080-exec-32] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has finished in [346] ms
+04-Sep-2021 20:32:37.199 INFORMACIÓN [http-nio-8080-exec-21] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DemoUIS]] after start() had already been called. The second call will be ignored.
+04-Sep-2021 20:32:53.644 INFORMACIÓN [http-nio-8080-exec-28] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 20:32:53.989 INFORMACIÓN [http-nio-8080-exec-28] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 20:32:56.821 INFORMACIÓN [http-nio-8080-exec-30] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/DemoUIS]
+04-Sep-2021 20:32:56.836 INFORMACIÓN [http-nio-8080-exec-32] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml]
+04-Sep-2021 20:32:56.836 ADVERTENCIA [http-nio-8080-exec-32] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/DemoUIS] in deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has been ignored
+04-Sep-2021 20:32:57.173 INFORMACIÓN [http-nio-8080-exec-32] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has finished in [337] ms
+04-Sep-2021 20:32:57.176 INFORMACIÓN [http-nio-8080-exec-34] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DemoUIS]] after start() had already been called. The second call will be ignored.
+04-Sep-2021 20:39:14.715 INFORMACIÓN [http-nio-8080-exec-41] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 20:39:15.160 INFORMACIÓN [http-nio-8080-exec-41] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 20:39:15.531 INFORMACIÓN [http-nio-8080-exec-42] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 20:39:15.884 INFORMACIÓN [http-nio-8080-exec-42] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 20:39:21.806 INFORMACIÓN [http-nio-8080-exec-45] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/DemoUIS]
+04-Sep-2021 20:39:21.830 INFORMACIÓN [http-nio-8080-exec-48] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml]
+04-Sep-2021 20:39:21.831 ADVERTENCIA [http-nio-8080-exec-48] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/DemoUIS] in deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has been ignored
+04-Sep-2021 20:39:22.176 INFORMACIÓN [http-nio-8080-exec-48] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has finished in [346] ms
+04-Sep-2021 20:39:22.179 INFORMACIÓN [http-nio-8080-exec-40] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DemoUIS]] after start() had already been called. The second call will be ignored.
+04-Sep-2021 20:42:05.932 INFORMACIÓN [http-nio-8080-exec-57] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS-1.xml]
+04-Sep-2021 20:42:05.933 ADVERTENCIA [http-nio-8080-exec-57] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/DemoUIS-1] in deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS-1.xml] has been ignored
+04-Sep-2021 20:42:07.287 INFORMACIÓN [http-nio-8080-exec-57] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+04-Sep-2021 20:42:07.641 INFORMACIÓN [http-nio-8080-exec-57] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 20:42:07.996 INFORMACIÓN [http-nio-8080-exec-57] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS-1.xml] has finished in [2.064] ms
+04-Sep-2021 20:42:07.999 INFORMACIÓN [http-nio-8080-exec-58] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DemoUIS-1]] after start() had already been called. The second call will be ignored.
+04-Sep-2021 20:43:10.573 INFORMACIÓN [http-nio-8080-exec-62] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS-1]
+04-Sep-2021 20:43:11.921 INFORMACIÓN [http-nio-8080-exec-62] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+04-Sep-2021 20:43:12.258 INFORMACIÓN [http-nio-8080-exec-62] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 20:43:12.602 INFORMACIÓN [http-nio-8080-exec-62] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 20:43:12.926 INFORMACIÓN [http-nio-8080-exec-56] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS-1]
+04-Sep-2021 20:43:14.218 INFORMACIÓN [http-nio-8080-exec-56] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+04-Sep-2021 20:43:14.571 INFORMACIÓN [http-nio-8080-exec-56] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 20:43:14.895 INFORMACIÓN [http-nio-8080-exec-56] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 20:43:30.125 INFORMACIÓN [http-nio-8080-exec-64] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS-1]
+04-Sep-2021 20:43:31.425 INFORMACIÓN [http-nio-8080-exec-64] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /webresources/*, with the Application class of the same name.
+04-Sep-2021 20:43:31.763 INFORMACIÓN [http-nio-8080-exec-64] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 20:43:32.085 INFORMACIÓN [http-nio-8080-exec-64] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 20:43:44.598 INFORMACIÓN [http-nio-8080-exec-61] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS-1]
+04-Sep-2021 20:43:45.866 INFORMACIÓN [http-nio-8080-exec-61] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 20:43:46.195 INFORMACIÓN [http-nio-8080-exec-61] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 20:43:46.514 INFORMACIÓN [http-nio-8080-exec-61] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 20:43:48.375 INFORMACIÓN [http-nio-8080-exec-67] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS-1]
+04-Sep-2021 20:43:49.657 INFORMACIÓN [http-nio-8080-exec-67] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 20:43:49.990 INFORMACIÓN [http-nio-8080-exec-67] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 20:43:50.309 INFORMACIÓN [http-nio-8080-exec-67] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 20:44:27.836 INFORMACIÓN [http-nio-8080-exec-68] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS-1]
+04-Sep-2021 20:44:29.101 INFORMACIÓN [http-nio-8080-exec-68] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 20:44:29.429 INFORMACIÓN [http-nio-8080-exec-68] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 20:44:29.811 INFORMACIÓN [http-nio-8080-exec-68] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 20:44:30.766 INFORMACIÓN [http-nio-8080-exec-74] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS-1]
+04-Sep-2021 20:44:31.988 INFORMACIÓN [http-nio-8080-exec-74] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 20:44:32.337 INFORMACIÓN [http-nio-8080-exec-74] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 20:44:32.661 INFORMACIÓN [http-nio-8080-exec-74] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 20:45:03.178 INFORMACIÓN [http-nio-8080-exec-69] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS-1]
+04-Sep-2021 20:45:04.468 INFORMACIÓN [http-nio-8080-exec-69] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 20:45:04.814 INFORMACIÓN [http-nio-8080-exec-69] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 20:45:05.152 INFORMACIÓN [http-nio-8080-exec-69] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 20:45:10.679 INFORMACIÓN [http-nio-8080-exec-81] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS-1]
+04-Sep-2021 20:45:11.983 INFORMACIÓN [http-nio-8080-exec-81] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 20:45:12.433 INFORMACIÓN [http-nio-8080-exec-81] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 20:45:12.765 INFORMACIÓN [http-nio-8080-exec-81] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 20:45:13.683 INFORMACIÓN [http-nio-8080-exec-78] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS-1]
+04-Sep-2021 20:45:14.915 INFORMACIÓN [http-nio-8080-exec-78] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 20:45:15.250 INFORMACIÓN [http-nio-8080-exec-78] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 20:45:15.576 INFORMACIÓN [http-nio-8080-exec-78] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 21:20:18.725 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/DemoUIS]
+04-Sep-2021 21:20:18.739 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml]
+04-Sep-2021 21:20:18.740 ADVERTENCIA [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/DemoUIS] in deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has been ignored
+04-Sep-2021 21:20:18.742 GRAVE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@5ce2c4f7]
+	at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:441)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4742)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4877)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:742)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:718)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:703)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:630)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1840)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:525)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:424)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1629)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:304)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1174)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1368)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\SENA\Documents\NetBeansProjects\DemoUIS\target\DemoUIS-1.0] is not valid
+	at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:706)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	... 22 more
+
+04-Sep-2021 21:20:18.743 GRAVE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml]
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@5ce2c4f7]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:746)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:718)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:703)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:630)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1840)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:525)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:424)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1629)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:304)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1174)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1400)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1368)
+	at java.lang.Thread.run(Thread.java:745)
+
+04-Sep-2021 21:20:18.971 INFORMACIÓN [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has finished in [231] ms
+04-Sep-2021 21:20:23.969 INFORMACIÓN [http-nio-8080-exec-92] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/DemoUIS-1]
+04-Sep-2021 21:21:14.544 INFORMACIÓN [http-nio-8080-exec-93] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/DemoUIS]
+04-Sep-2021 21:21:14.554 INFORMACIÓN [http-nio-8080-exec-90] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml]
+04-Sep-2021 21:21:14.555 ADVERTENCIA [http-nio-8080-exec-90] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/DemoUIS] in deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has been ignored
+04-Sep-2021 21:21:14.569 INFORMACIÓN [http-nio-8080-exec-90] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has finished in [15] ms
+04-Sep-2021 21:21:14.572 INFORMACIÓN [http-nio-8080-exec-91] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DemoUIS]] after start() had already been called. The second call will be ignored.
+04-Sep-2021 21:21:45.719 INFORMACIÓN [http-nio-8080-exec-93] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 21:21:45.744 INFORMACIÓN [http-nio-8080-exec-93] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 21:21:46.013 INFORMACIÓN [http-nio-8080-exec-102] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 21:21:46.025 INFORMACIÓN [http-nio-8080-exec-102] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 21:21:54.448 INFORMACIÓN [http-nio-8080-exec-103] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 21:21:54.462 INFORMACIÓN [http-nio-8080-exec-103] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 21:21:54.620 INFORMACIÓN [http-nio-8080-exec-99] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 21:21:54.634 INFORMACIÓN [http-nio-8080-exec-99] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 21:24:21.031 INFORMACIÓN [http-nio-8080-exec-107] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 21:24:21.964 INFORMACIÓN [http-nio-8080-exec-107] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 21:24:22.298 INFORMACIÓN [http-nio-8080-exec-93] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 21:24:23.122 INFORMACIÓN [http-nio-8080-exec-93] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 21:24:23.449 INFORMACIÓN [http-nio-8080-exec-102] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 21:24:24.175 INFORMACIÓN [http-nio-8080-exec-102] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 21:25:06.875 INFORMACIÓN [http-nio-8080-exec-107] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/DemoUIS]
+04-Sep-2021 21:27:45.970 INFORMACIÓN [http-nio-8080-exec-102] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml]
+04-Sep-2021 21:27:45.971 ADVERTENCIA [http-nio-8080-exec-102] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/DemoUIS] in deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has been ignored
+04-Sep-2021 21:27:47.220 INFORMACIÓN [http-nio-8080-exec-102] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 21:27:47.542 INFORMACIÓN [http-nio-8080-exec-102] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 21:27:47.867 INFORMACIÓN [http-nio-8080-exec-102] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has finished in [1.897] ms
+04-Sep-2021 21:27:47.869 INFORMACIÓN [http-nio-8080-exec-106] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DemoUIS]] after start() had already been called. The second call will be ignored.
+04-Sep-2021 21:28:12.138 INFORMACIÓN [http-nio-8080-exec-110] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 21:28:13.382 INFORMACIÓN [http-nio-8080-exec-110] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 21:28:13.709 INFORMACIÓN [http-nio-8080-exec-110] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 21:28:14.043 INFORMACIÓN [http-nio-8080-exec-110] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 21:28:28.585 INFORMACIÓN [http-nio-8080-exec-118] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 21:28:29.929 INFORMACIÓN [http-nio-8080-exec-118] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 21:28:30.271 INFORMACIÓN [http-nio-8080-exec-118] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 21:28:30.606 INFORMACIÓN [http-nio-8080-exec-118] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 21:29:03.690 INFORMACIÓN [http-nio-8080-exec-126] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 21:29:04.933 INFORMACIÓN [http-nio-8080-exec-126] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 21:29:05.277 INFORMACIÓN [http-nio-8080-exec-126] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 21:29:05.543 GRAVE [http-nio-8080-exec-126] org.glassfish.jersey.internal.Errors.logErrors Following issues have been detected: 
+WARNING: A resource model has ambiguous (sub-)resource method for HTTP method GET and input mime-types as defined by @Consumes and @Produces annotations at Java methods public java.lang.String restful.UsuarioResource.saludar() and public java.lang.String restful.DemoResource.saludar() at matching regular expression /demo. These two methods produces and consumes exactly the same mime-types and therefore their invocation as a resource methods will always fail.
+
+04-Sep-2021 21:29:05.545 INFORMACIÓN [http-nio-8080-exec-126] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 21:29:05.861 INFORMACIÓN [http-nio-8080-exec-115] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 21:29:07.134 INFORMACIÓN [http-nio-8080-exec-115] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 21:29:07.455 INFORMACIÓN [http-nio-8080-exec-115] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 21:29:07.712 GRAVE [http-nio-8080-exec-115] org.glassfish.jersey.internal.Errors.logErrors Following issues have been detected: 
+WARNING: A resource model has ambiguous (sub-)resource method for HTTP method GET and input mime-types as defined by @Consumes and @Produces annotations at Java methods public java.lang.String restful.DemoResource.saludar() and public java.lang.String restful.UsuarioResource.saludar() at matching regular expression /demo. These two methods produces and consumes exactly the same mime-types and therefore their invocation as a resource methods will always fail.
+
+04-Sep-2021 21:29:07.714 INFORMACIÓN [http-nio-8080-exec-115] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 21:29:09.323 INFORMACIÓN [http-nio-8080-exec-124] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 21:29:10.611 INFORMACIÓN [http-nio-8080-exec-124] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 21:29:10.946 INFORMACIÓN [http-nio-8080-exec-124] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 21:29:11.271 INFORMACIÓN [http-nio-8080-exec-124] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 21:33:02.955 INFORMACIÓN [http-nio-8080-exec-133] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 21:33:04.284 INFORMACIÓN [http-nio-8080-exec-133] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 21:33:04.631 INFORMACIÓN [http-nio-8080-exec-133] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 21:33:04.949 INFORMACIÓN [http-nio-8080-exec-133] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 21:36:17.927 INFORMACIÓN [http-nio-8080-exec-142] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 21:36:19.239 INFORMACIÓN [http-nio-8080-exec-142] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 21:36:19.582 INFORMACIÓN [http-nio-8080-exec-142] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 21:36:19.920 INFORMACIÓN [http-nio-8080-exec-142] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 21:36:20.254 INFORMACIÓN [http-nio-8080-exec-147] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 21:36:21.526 INFORMACIÓN [http-nio-8080-exec-147] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 21:36:21.868 INFORMACIÓN [http-nio-8080-exec-147] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 21:36:22.212 INFORMACIÓN [http-nio-8080-exec-147] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 21:36:43.646 INFORMACIÓN [http-nio-8080-exec-144] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 21:36:44.969 INFORMACIÓN [http-nio-8080-exec-144] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 21:36:45.336 INFORMACIÓN [http-nio-8080-exec-144] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 21:36:45.756 INFORMACIÓN [http-nio-8080-exec-144] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 21:37:21.203 INFORMACIÓN [http-nio-8080-exec-148] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 21:37:22.523 INFORMACIÓN [http-nio-8080-exec-148] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 21:37:22.859 INFORMACIÓN [http-nio-8080-exec-148] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 21:37:23.137 GRAVE [http-nio-8080-exec-148] org.glassfish.jersey.internal.Errors.logErrors Following issues have been detected: 
+WARNING: A resource model has ambiguous (sub-)resource method for HTTP method GET and input mime-types as defined by @Consumes and @Produces annotations at Java methods public java.lang.String resource.UsuarioResource.saludar() and public java.lang.String resource.ClienteResource.saludar() at matching regular expression /usuario. These two methods produces and consumes exactly the same mime-types and therefore their invocation as a resource methods will always fail.
+
+04-Sep-2021 21:37:23.139 INFORMACIÓN [http-nio-8080-exec-148] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 21:37:23.470 INFORMACIÓN [http-nio-8080-exec-138] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 21:37:24.705 INFORMACIÓN [http-nio-8080-exec-138] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 21:37:25.029 INFORMACIÓN [http-nio-8080-exec-138] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 21:37:25.355 INFORMACIÓN [http-nio-8080-exec-138] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 21:37:33.651 INFORMACIÓN [http-nio-8080-exec-146] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 21:37:34.939 INFORMACIÓN [http-nio-8080-exec-146] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 21:37:35.282 INFORMACIÓN [http-nio-8080-exec-146] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 21:37:35.648 INFORMACIÓN [http-nio-8080-exec-146] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 21:38:13.101 INFORMACIÓN [http-nio-8080-exec-155] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 21:38:14.454 INFORMACIÓN [http-nio-8080-exec-155] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 21:38:14.832 INFORMACIÓN [http-nio-8080-exec-155] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 21:38:15.209 INFORMACIÓN [http-nio-8080-exec-155] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 21:38:32.506 INFORMACIÓN [http-nio-8080-exec-156] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 21:38:33.817 INFORMACIÓN [http-nio-8080-exec-156] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 21:38:34.171 INFORMACIÓN [http-nio-8080-exec-156] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 21:38:34.509 INFORMACIÓN [http-nio-8080-exec-156] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 21:42:21.530 INFORMACIÓN [http-nio-8080-exec-165] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 21:42:22.817 INFORMACIÓN [http-nio-8080-exec-165] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 21:42:23.168 INFORMACIÓN [http-nio-8080-exec-165] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 21:42:23.514 INFORMACIÓN [http-nio-8080-exec-165] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 21:43:06.806 INFORMACIÓN [http-nio-8080-exec-159] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 21:43:08.120 INFORMACIÓN [http-nio-8080-exec-159] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 21:43:08.474 INFORMACIÓN [http-nio-8080-exec-159] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 21:43:08.822 INFORMACIÓN [http-nio-8080-exec-159] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 21:45:03.017 INFORMACIÓN [http-nio-8080-exec-175] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 21:45:04.307 INFORMACIÓN [http-nio-8080-exec-175] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 21:45:04.655 INFORMACIÓN [http-nio-8080-exec-175] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 21:45:04.998 INFORMACIÓN [http-nio-8080-exec-175] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 21:45:39.177 INFORMACIÓN [http-nio-8080-exec-176] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 21:45:40.526 INFORMACIÓN [http-nio-8080-exec-176] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 21:45:40.866 INFORMACIÓN [http-nio-8080-exec-176] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 21:45:41.199 INFORMACIÓN [http-nio-8080-exec-176] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 21:54:57.637 INFORMACIÓN [http-nio-8080-exec-184] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 21:54:59.005 INFORMACIÓN [http-nio-8080-exec-184] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 21:54:59.377 INFORMACIÓN [http-nio-8080-exec-184] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 21:54:59.824 INFORMACIÓN [http-nio-8080-exec-184] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 21:55:01.960 INFORMACIÓN [http-nio-8080-exec-190] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UIS\servidor\conf\Catalina\localhost\restful.xml]
+04-Sep-2021 21:55:01.961 ADVERTENCIA [http-nio-8080-exec-190] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/restful] in deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\restful.xml] has been ignored
+04-Sep-2021 21:55:02.013 INFORMACIÓN [http-nio-8080-exec-190] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\restful.xml] has finished in [53] ms
+04-Sep-2021 21:55:02.015 INFORMACIÓN [http-nio-8080-exec-182] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/restful]] after start() had already been called. The second call will be ignored.
+04-Sep-2021 21:55:02.609 INFORMACIÓN [http-nio-8080-exec-187] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/restful]
+04-Sep-2021 21:55:02.620 INFORMACIÓN [http-nio-8080-exec-191] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UIS\servidor\conf\Catalina\localhost\restful.xml]
+04-Sep-2021 21:55:02.620 ADVERTENCIA [http-nio-8080-exec-191] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/restful] in deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\restful.xml] has been ignored
+04-Sep-2021 21:55:02.675 INFORMACIÓN [http-nio-8080-exec-191] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\restful.xml] has finished in [55] ms
+04-Sep-2021 21:55:02.678 INFORMACIÓN [http-nio-8080-exec-190] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/restful]] after start() had already been called. The second call will be ignored.
+04-Sep-2021 21:55:36.226 INFORMACIÓN [http-nio-8080-exec-193] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/restful]
+04-Sep-2021 21:55:36.258 INFORMACIÓN [http-nio-8080-exec-190] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UIS\servidor\conf\Catalina\localhost\restful.xml]
+04-Sep-2021 21:55:36.259 ADVERTENCIA [http-nio-8080-exec-190] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/restful] in deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\restful.xml] has been ignored
+04-Sep-2021 21:55:36.318 INFORMACIÓN [http-nio-8080-exec-190] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\restful.xml] has finished in [59] ms
+04-Sep-2021 21:55:36.320 INFORMACIÓN [http-nio-8080-exec-192] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/restful]] after start() had already been called. The second call will be ignored.
+04-Sep-2021 21:57:41.358 INFORMACIÓN [http-nio-8080-exec-201] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 21:57:42.650 INFORMACIÓN [http-nio-8080-exec-201] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 21:57:42.989 INFORMACIÓN [http-nio-8080-exec-201] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 21:57:43.343 INFORMACIÓN [http-nio-8080-exec-201] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 21:59:52.323 INFORMACIÓN [http-nio-8080-exec-212] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/DemoUIS]
+04-Sep-2021 22:00:52.080 INFORMACIÓN [http-nio-8080-exec-211] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml]
+04-Sep-2021 22:00:52.081 ADVERTENCIA [http-nio-8080-exec-211] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/DemoUIS] in deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has been ignored
+04-Sep-2021 22:00:53.357 INFORMACIÓN [http-nio-8080-exec-211] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 22:00:53.694 INFORMACIÓN [http-nio-8080-exec-211] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 22:00:54.132 INFORMACIÓN [http-nio-8080-exec-211] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has finished in [2.052] ms
+04-Sep-2021 22:00:54.134 INFORMACIÓN [http-nio-8080-exec-202] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DemoUIS]] after start() had already been called. The second call will be ignored.
+04-Sep-2021 22:00:59.780 INFORMACIÓN [http-nio-8080-exec-209] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/DemoUIS]
+04-Sep-2021 22:04:50.952 INFORMACIÓN [http-nio-8080-exec-223] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml]
+04-Sep-2021 22:04:50.953 ADVERTENCIA [http-nio-8080-exec-223] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/DemoUIS] in deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has been ignored
+04-Sep-2021 22:04:52.357 INFORMACIÓN [http-nio-8080-exec-223] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 22:04:52.708 INFORMACIÓN [http-nio-8080-exec-223] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 22:04:53.055 INFORMACIÓN [http-nio-8080-exec-223] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has finished in [2.103] ms
+04-Sep-2021 22:04:53.058 INFORMACIÓN [http-nio-8080-exec-209] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DemoUIS]] after start() had already been called. The second call will be ignored.
+04-Sep-2021 22:06:19.543 INFORMACIÓN [http-nio-8080-exec-226] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/DemoUIS]
+04-Sep-2021 22:06:19.552 INFORMACIÓN [http-nio-8080-exec-222] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml]
+04-Sep-2021 22:06:19.553 ADVERTENCIA [http-nio-8080-exec-222] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/DemoUIS] in deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has been ignored
+04-Sep-2021 22:06:20.808 INFORMACIÓN [http-nio-8080-exec-222] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 22:06:21.135 INFORMACIÓN [http-nio-8080-exec-222] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 22:06:21.461 INFORMACIÓN [http-nio-8080-exec-222] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has finished in [1.909] ms
+04-Sep-2021 22:06:46.666 INFORMACIÓN [http-nio-8080-exec-229] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 22:06:48.015 INFORMACIÓN [http-nio-8080-exec-229] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 22:06:48.374 INFORMACIÓN [http-nio-8080-exec-229] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 22:06:48.707 INFORMACIÓN [http-nio-8080-exec-229] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 22:09:07.299 INFORMACIÓN [http-nio-8080-exec-237] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 22:09:08.643 INFORMACIÓN [http-nio-8080-exec-237] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 22:09:09.003 INFORMACIÓN [http-nio-8080-exec-237] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 22:09:09.367 INFORMACIÓN [http-nio-8080-exec-237] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 22:10:26.955 INFORMACIÓN [http-nio-8080-exec-242] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 22:10:28.295 INFORMACIÓN [http-nio-8080-exec-242] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 22:10:28.639 INFORMACIÓN [http-nio-8080-exec-242] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 22:10:28.985 INFORMACIÓN [http-nio-8080-exec-242] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 22:10:57.597 INFORMACIÓN [http-nio-8080-exec-236] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 22:10:58.922 INFORMACIÓN [http-nio-8080-exec-236] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 22:10:59.279 INFORMACIÓN [http-nio-8080-exec-236] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 22:10:59.620 INFORMACIÓN [http-nio-8080-exec-236] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 22:11:43.341 INFORMACIÓN [http-nio-8080-exec-248] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 22:11:44.685 INFORMACIÓN [http-nio-8080-exec-248] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 22:11:45.037 INFORMACIÓN [http-nio-8080-exec-248] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 22:11:45.381 INFORMACIÓN [http-nio-8080-exec-248] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 22:12:01.353 INFORMACIÓN [http-nio-8080-exec-239] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 22:12:02.712 INFORMACIÓN [http-nio-8080-exec-239] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 22:12:03.052 INFORMACIÓN [http-nio-8080-exec-239] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 22:12:03.392 INFORMACIÓN [http-nio-8080-exec-239] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 22:18:57.539 INFORMACIÓN [http-nio-8080-exec-256] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 22:18:58.851 INFORMACIÓN [http-nio-8080-exec-256] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 22:18:59.208 INFORMACIÓN [http-nio-8080-exec-256] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 22:18:59.575 INFORMACIÓN [http-nio-8080-exec-256] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 22:19:24.818 INFORMACIÓN [http-nio-8080-exec-260] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 22:19:26.124 INFORMACIÓN [http-nio-8080-exec-260] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 22:19:26.464 INFORMACIÓN [http-nio-8080-exec-260] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 22:19:26.816 INFORMACIÓN [http-nio-8080-exec-260] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 22:20:31.912 INFORMACIÓN [http-nio-8080-exec-272] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 22:20:33.236 INFORMACIÓN [http-nio-8080-exec-272] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 22:20:33.581 INFORMACIÓN [http-nio-8080-exec-272] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 22:20:33.942 INFORMACIÓN [http-nio-8080-exec-272] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 22:21:04.296 INFORMACIÓN [http-nio-8080-exec-263] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 22:21:05.624 INFORMACIÓN [http-nio-8080-exec-263] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 22:21:05.982 INFORMACIÓN [http-nio-8080-exec-263] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 22:21:06.428 INFORMACIÓN [http-nio-8080-exec-263] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 22:22:28.817 INFORMACIÓN [http-nio-8080-exec-281] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 22:22:30.114 INFORMACIÓN [http-nio-8080-exec-281] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 22:22:30.455 INFORMACIÓN [http-nio-8080-exec-281] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 22:22:30.801 INFORMACIÓN [http-nio-8080-exec-281] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 22:22:31.132 INFORMACIÓN [http-nio-8080-exec-261] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 22:22:32.467 INFORMACIÓN [http-nio-8080-exec-261] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 22:22:32.798 INFORMACIÓN [http-nio-8080-exec-261] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 22:22:33.145 INFORMACIÓN [http-nio-8080-exec-261] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 22:22:50.996 INFORMACIÓN [http-nio-8080-exec-280] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 22:22:52.344 INFORMACIÓN [http-nio-8080-exec-280] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 22:22:52.694 INFORMACIÓN [http-nio-8080-exec-280] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 22:22:53.021 INFORMACIÓN [http-nio-8080-exec-280] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 22:23:38.479 INFORMACIÓN [http-nio-8080-exec-283] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 22:23:39.829 INFORMACIÓN [http-nio-8080-exec-283] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 22:23:40.175 INFORMACIÓN [http-nio-8080-exec-283] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 22:23:40.516 INFORMACIÓN [http-nio-8080-exec-283] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 22:25:19.143 INFORMACIÓN [http-nio-8080-exec-294] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 22:25:20.711 INFORMACIÓN [http-nio-8080-exec-294] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 22:25:21.045 INFORMACIÓN [http-nio-8080-exec-294] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 22:25:21.394 INFORMACIÓN [http-nio-8080-exec-294] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 22:25:21.724 INFORMACIÓN [http-nio-8080-exec-289] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 22:25:23.198 INFORMACIÓN [http-nio-8080-exec-289] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 22:25:23.526 INFORMACIÓN [http-nio-8080-exec-289] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 22:25:23.861 INFORMACIÓN [http-nio-8080-exec-289] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 22:25:51.671 INFORMACIÓN [http-nio-8080-exec-290] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 22:25:51.674 ADVERTENCIA [http-nio-8080-exec-290] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [DemoUIS] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+04-Sep-2021 22:25:51.674 ADVERTENCIA [http-nio-8080-exec-290] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DemoUIS] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+04-Sep-2021 22:25:51.957 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [com.mysql.cj.protocol.ExportControlled].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+ java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [com.mysql.cj.protocol.ExportControlled].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1312)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1300)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1159)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1121)
+	at com.mysql.cj.protocol.NetworkResources.forceClose(NetworkResources.java:53)
+	at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread$ConnectionFinalizerPhantomReference.finalizeResources(AbandonedConnectionCleanupThread.java:248)
+	at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.finalizeResource(AbandonedConnectionCleanupThread.java:226)
+	at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+04-Sep-2021 22:25:53.186 INFORMACIÓN [http-nio-8080-exec-290] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 22:25:53.552 INFORMACIÓN [http-nio-8080-exec-290] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 22:25:53.917 INFORMACIÓN [http-nio-8080-exec-290] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 22:26:16.227 INFORMACIÓN [http-nio-8080-exec-296] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 22:26:16.230 ADVERTENCIA [http-nio-8080-exec-296] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [DemoUIS] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+04-Sep-2021 22:26:16.230 ADVERTENCIA [http-nio-8080-exec-296] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DemoUIS] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+04-Sep-2021 22:26:16.491 INFORMACIÓN [http-nio-8080-exec-296] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 22:26:20.804 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+ java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1312)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:989)
+	at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+	at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+04-Sep-2021 22:27:13.932 INFORMACIÓN [http-nio-8080-exec-293] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 22:27:15.574 INFORMACIÓN [http-nio-8080-exec-293] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 22:27:15.958 INFORMACIÓN [http-nio-8080-exec-293] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 22:27:16.342 INFORMACIÓN [http-nio-8080-exec-293] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 22:27:16.671 INFORMACIÓN [http-nio-8080-exec-299] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 22:27:18.181 INFORMACIÓN [http-nio-8080-exec-299] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 22:27:18.546 INFORMACIÓN [http-nio-8080-exec-299] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 22:27:18.892 INFORMACIÓN [http-nio-8080-exec-299] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 22:27:29.758 INFORMACIÓN [http-nio-8080-exec-297] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 22:27:29.761 ADVERTENCIA [http-nio-8080-exec-297] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [DemoUIS] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+04-Sep-2021 22:27:29.761 ADVERTENCIA [http-nio-8080-exec-297] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DemoUIS] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+04-Sep-2021 22:27:29.783 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [com.mysql.cj.protocol.ExportControlled].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+ java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [com.mysql.cj.protocol.ExportControlled].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1312)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1300)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1159)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1121)
+	at com.mysql.cj.protocol.NetworkResources.forceClose(NetworkResources.java:53)
+	at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread$ConnectionFinalizerPhantomReference.finalizeResources(AbandonedConnectionCleanupThread.java:248)
+	at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.finalizeResource(AbandonedConnectionCleanupThread.java:226)
+	at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+04-Sep-2021 22:27:29.815 INFORMACIÓN [http-nio-8080-exec-297] org.apache.catalina.startup.ContextConfig.processServletContainerInitializers Unable to process ServletContainerInitializer for [org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer]. This is most likely due to a class defined in the @HandlesTypes annotation being missing. Enable DEBUG level logging for the full stack trace.
+04-Sep-2021 22:27:31.322 GRAVE [http-nio-8080-exec-297] org.apache.catalina.core.StandardContext.reload Excepción arrancando Contexto con nombre [/DemoUIS]
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DemoUIS]]
+	at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:441)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3700)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1094)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:364)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:611)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:348)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:52)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:412)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1385)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoClassDefFoundError: javax/ws/rs/ProcessingException
+	at org.glassfish.jersey.internal.util.ReflectionHelper.getOsgiRegistryInstance(ReflectionHelper.java:1422)
+	at org.glassfish.jersey.internal.ServiceFinder.<clinit>(ServiceFinder.java:165)
+	at org.glassfish.jersey.servlet.internal.ServletContainerProviderFactory.getAllServletContainerProviders(ServletContainerProviderFactory.java:66)
+	at org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.onStartup(JerseyServletContainerInitializer.java:132)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5080)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	... 29 more
+Caused by: java.lang.ClassNotFoundException: javax.ws.rs.ProcessingException
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1292)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1121)
+	... 35 more
+
+04-Sep-2021 22:27:31.322 INFORMACIÓN [http-nio-8080-exec-297] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 22:27:49.723 INFORMACIÓN [http-nio-8080-exec-311] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/DemoUIS]
+04-Sep-2021 22:27:49.749 INFORMACIÓN [http-nio-8080-exec-303] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml]
+04-Sep-2021 22:27:49.750 ADVERTENCIA [http-nio-8080-exec-303] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/DemoUIS] in deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has been ignored
+04-Sep-2021 22:27:51.291 INFORMACIÓN [http-nio-8080-exec-303] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 22:27:51.630 INFORMACIÓN [http-nio-8080-exec-303] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 22:27:51.996 INFORMACIÓN [http-nio-8080-exec-303] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has finished in [2.247] ms
+04-Sep-2021 22:27:51.998 INFORMACIÓN [http-nio-8080-exec-316] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/DemoUIS]] after start() had already been called. The second call will be ignored.
+04-Sep-2021 22:35:02.734 INFORMACIÓN [http-nio-8080-exec-325] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 22:35:02.739 ADVERTENCIA [http-nio-8080-exec-325] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [DemoUIS] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+04-Sep-2021 22:35:02.740 ADVERTENCIA [http-nio-8080-exec-325] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DemoUIS] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+04-Sep-2021 22:35:03.173 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+ java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1312)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:989)
+	at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+	at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+04-Sep-2021 22:35:04.682 INFORMACIÓN [http-nio-8080-exec-325] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 22:35:05.033 INFORMACIÓN [http-nio-8080-exec-325] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 22:35:05.399 INFORMACIÓN [http-nio-8080-exec-325] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 22:35:05.746 INFORMACIÓN [http-nio-8080-exec-326] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 22:35:07.452 INFORMACIÓN [http-nio-8080-exec-326] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 22:35:07.805 INFORMACIÓN [http-nio-8080-exec-326] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 22:35:08.155 INFORMACIÓN [http-nio-8080-exec-326] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 22:36:10.376 INFORMACIÓN [http-nio-8080-exec-324] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 22:36:12.062 INFORMACIÓN [http-nio-8080-exec-324] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 22:36:12.405 INFORMACIÓN [http-nio-8080-exec-324] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 22:36:12.763 INFORMACIÓN [http-nio-8080-exec-324] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 22:36:17.267 INFORMACIÓN [http-nio-8080-exec-329] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 22:36:19.032 INFORMACIÓN [http-nio-8080-exec-329] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 22:36:19.385 INFORMACIÓN [http-nio-8080-exec-329] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 22:36:19.773 INFORMACIÓN [http-nio-8080-exec-329] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 22:40:20.605 INFORMACIÓN [http-nio-8080-exec-336] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 22:40:22.391 INFORMACIÓN [http-nio-8080-exec-336] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 22:40:22.730 INFORMACIÓN [http-nio-8080-exec-336] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 22:40:23.064 INFORMACIÓN [http-nio-8080-exec-336] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 22:40:23.395 INFORMACIÓN [http-nio-8080-exec-338] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 22:40:25.056 INFORMACIÓN [http-nio-8080-exec-338] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 22:40:25.396 INFORMACIÓN [http-nio-8080-exec-338] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 22:40:25.735 INFORMACIÓN [http-nio-8080-exec-338] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 22:51:21.353 INFORMACIÓN [http-nio-8080-exec-348] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 22:51:23.108 INFORMACIÓN [http-nio-8080-exec-348] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 22:51:23.447 INFORMACIÓN [http-nio-8080-exec-348] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 22:51:23.893 INFORMACIÓN [http-nio-8080-exec-348] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 22:51:24.227 INFORMACIÓN [http-nio-8080-exec-352] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 22:51:25.850 INFORMACIÓN [http-nio-8080-exec-352] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 22:51:26.184 INFORMACIÓN [http-nio-8080-exec-352] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 22:51:26.524 INFORMACIÓN [http-nio-8080-exec-352] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 22:53:00.745 INFORMACIÓN [http-nio-8080-exec-354] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 22:53:02.419 INFORMACIÓN [http-nio-8080-exec-354] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 22:53:02.792 INFORMACIÓN [http-nio-8080-exec-354] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 22:53:03.136 INFORMACIÓN [http-nio-8080-exec-354] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+04-Sep-2021 22:54:38.277 INFORMACIÓN [http-nio-8080-exec-362] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/DemoUIS]
+04-Sep-2021 22:54:38.280 ADVERTENCIA [http-nio-8080-exec-362] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [DemoUIS] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+04-Sep-2021 22:54:38.280 ADVERTENCIA [http-nio-8080-exec-362] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [DemoUIS] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+04-Sep-2021 22:54:38.657 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [com.mysql.cj.protocol.ExportControlled].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+ java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [com.mysql.cj.protocol.ExportControlled].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1312)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1300)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1159)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1121)
+	at com.mysql.cj.protocol.NetworkResources.forceClose(NetworkResources.java:53)
+	at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread$ConnectionFinalizerPhantomReference.finalizeResources(AbandonedConnectionCleanupThread.java:248)
+	at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.finalizeResource(AbandonedConnectionCleanupThread.java:226)
+	at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:93)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+04-Sep-2021 22:54:40.302 INFORMACIÓN [http-nio-8080-exec-362] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+04-Sep-2021 22:54:40.657 INFORMACIÓN [http-nio-8080-exec-362] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+04-Sep-2021 22:54:41.047 INFORMACIÓN [http-nio-8080-exec-362] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto

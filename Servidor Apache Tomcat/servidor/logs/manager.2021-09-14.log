@@ -1,0 +1,128 @@
+14-Sep-2021 22:13:22.842 INFORMACIÓN [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+14-Sep-2021 22:13:22.842 INFORMACIÓN [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+14-Sep-2021 22:13:39.514 INFORMACIÓN [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:13:39.517 INFORMACIÓN [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:19:01.105 INFORMACIÓN [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:19:01.112 INFORMACIÓN [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:19:01.121 INFORMACIÓN [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/SENA/AppData/Local/Temp/context5535185903184650729.xml'
+14-Sep-2021 22:19:01.151 INFORMACIÓN [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/sergio'
+14-Sep-2021 22:20:33.370 INFORMACIÓN [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:20:33.377 INFORMACIÓN [http-nio-8080-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/sergio'
+14-Sep-2021 22:20:35.147 INFORMACIÓN [http-nio-8080-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:20:35.171 INFORMACIÓN [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/sergio'
+14-Sep-2021 22:20:35.171 GRAVE [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: ManagerServlet.reload[/sergio]
+ java.lang.IllegalStateException: Aún no se ha arrancado el Contexto [/sergio]
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3683)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1094)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:364)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:611)
+	at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:348)
+	at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:52)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:412)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1385)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+14-Sep-2021 22:20:44.788 INFORMACIÓN [http-nio-8080-exec-12] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:20:44.791 INFORMACIÓN [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:20:44.800 INFORMACIÓN [http-nio-8080-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sergio'
+14-Sep-2021 22:20:45.329 INFORMACIÓN [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/SENA/AppData/Local/Temp/context3078010392150116304.xml'
+14-Sep-2021 22:20:46.656 INFORMACIÓN [http-nio-8080-exec-13] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/sergio'
+14-Sep-2021 22:21:49.919 INFORMACIÓN [http-nio-8080-exec-14] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:21:49.925 INFORMACIÓN [http-nio-8080-exec-17] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/sergio'
+14-Sep-2021 22:22:01.738 INFORMACIÓN [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:22:01.743 INFORMACIÓN [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/sergio'
+14-Sep-2021 22:22:10.862 INFORMACIÓN [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:22:10.868 INFORMACIÓN [http-nio-8080-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/sergio'
+14-Sep-2021 22:22:25.160 INFORMACIÓN [http-nio-8080-exec-23] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:22:25.166 INFORMACIÓN [http-nio-8080-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/sergio'
+14-Sep-2021 22:23:50.323 INFORMACIÓN [http-nio-8080-exec-24] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:23:50.332 INFORMACIÓN [http-nio-8080-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/sergio'
+14-Sep-2021 22:23:52.711 INFORMACIÓN [http-nio-8080-exec-18] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:23:52.719 INFORMACIÓN [http-nio-8080-exec-22] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/sergio'
+14-Sep-2021 22:24:12.135 INFORMACIÓN [http-nio-8080-exec-30] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:24:12.138 INFORMACIÓN [http-nio-8080-exec-21] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:24:12.157 INFORMACIÓN [http-nio-8080-exec-29] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/sergio'
+14-Sep-2021 22:24:58.768 INFORMACIÓN [http-nio-8080-exec-18] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:24:58.773 INFORMACIÓN [http-nio-8080-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/sergio'
+14-Sep-2021 22:25:01.583 INFORMACIÓN [http-nio-8080-exec-31] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:25:01.591 INFORMACIÓN [http-nio-8080-exec-36] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/sergio'
+14-Sep-2021 22:25:12.385 INFORMACIÓN [http-nio-8080-exec-30] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:25:12.392 INFORMACIÓN [http-nio-8080-exec-32] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/sergio'
+14-Sep-2021 22:26:13.130 INFORMACIÓN [http-nio-8080-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:26:13.136 INFORMACIÓN [http-nio-8080-exec-33] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/sergio'
+14-Sep-2021 22:27:12.208 INFORMACIÓN [http-nio-8080-exec-49] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:27:12.214 INFORMACIÓN [http-nio-8080-exec-18] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/sergio'
+14-Sep-2021 22:33:02.613 INFORMACIÓN [http-nio-8080-exec-51] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:33:02.621 INFORMACIÓN [http-nio-8080-exec-52] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Tutorial'
+14-Sep-2021 22:33:54.381 INFORMACIÓN [http-nio-8080-exec-61] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:33:54.386 INFORMACIÓN [http-nio-8080-exec-50] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/DemoUIS'
+14-Sep-2021 22:34:25.710 INFORMACIÓN [http-nio-8080-exec-57] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:34:25.715 INFORMACIÓN [http-nio-8080-exec-56] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/sergio'
+14-Sep-2021 22:34:28.421 INFORMACIÓN [http-nio-8080-exec-60] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:34:28.428 INFORMACIÓN [http-nio-8080-exec-59] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/sergio'
+14-Sep-2021 22:34:34.939 INFORMACIÓN [http-nio-8080-exec-66] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:34:34.957 INFORMACIÓN [http-nio-8080-exec-63] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:34:35.214 INFORMACIÓN [http-nio-8080-exec-58] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:34:35.221 INFORMACIÓN [http-nio-8080-exec-65] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/sergio'
+14-Sep-2021 22:35:00.766 INFORMACIÓN [http-nio-8080-exec-63] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:35:00.773 INFORMACIÓN [http-nio-8080-exec-58] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/sergio'
+14-Sep-2021 22:35:25.745 INFORMACIÓN [http-nio-8080-exec-71] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:35:25.750 INFORMACIÓN [http-nio-8080-exec-67] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/sergio'
+14-Sep-2021 22:35:31.159 INFORMACIÓN [http-nio-8080-exec-71] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:35:31.165 INFORMACIÓN [http-nio-8080-exec-54] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/sergio'
+14-Sep-2021 22:37:04.941 INFORMACIÓN [http-nio-8080-exec-75] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:37:04.947 INFORMACIÓN [http-nio-8080-exec-76] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/sergio'
+14-Sep-2021 22:37:08.079 INFORMACIÓN [http-nio-8080-exec-68] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:37:08.086 INFORMACIÓN [http-nio-8080-exec-77] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/sergio'
+14-Sep-2021 22:37:10.493 INFORMACIÓN [http-nio-8080-exec-68] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:37:10.499 INFORMACIÓN [http-nio-8080-exec-51] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/sergio'
+14-Sep-2021 22:37:42.707 INFORMACIÓN [http-nio-8080-exec-74] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:37:42.712 INFORMACIÓN [http-nio-8080-exec-82] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/sergio'
+14-Sep-2021 22:37:45.292 INFORMACIÓN [http-nio-8080-exec-63] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:37:45.300 INFORMACIÓN [http-nio-8080-exec-81] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/sergio'
+14-Sep-2021 22:37:47.792 INFORMACIÓN [http-nio-8080-exec-83] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:37:47.801 INFORMACIÓN [http-nio-8080-exec-84] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/sergio'
+14-Sep-2021 22:38:36.104 INFORMACIÓN [http-nio-8080-exec-83] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:38:36.111 INFORMACIÓN [http-nio-8080-exec-85] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Tutorial'
+14-Sep-2021 22:39:10.151 INFORMACIÓN [http-nio-8080-exec-96] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:39:10.157 INFORMACIÓN [http-nio-8080-exec-68] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Tutorial'
+14-Sep-2021 22:40:09.763 INFORMACIÓN [http-nio-8080-exec-96] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:40:09.770 INFORMACIÓN [http-nio-8080-exec-88] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Tutorial'
+14-Sep-2021 22:40:22.094 INFORMACIÓN [http-nio-8080-exec-97] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:40:22.101 INFORMACIÓN [http-nio-8080-exec-100] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Tutorial'
+14-Sep-2021 22:41:00.313 INFORMACIÓN [http-nio-8080-exec-102] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:41:00.320 INFORMACIÓN [http-nio-8080-exec-89] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Tutorial'
+14-Sep-2021 22:41:15.409 INFORMACIÓN [http-nio-8080-exec-105] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:41:15.415 INFORMACIÓN [http-nio-8080-exec-96] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Tutorial'
+14-Sep-2021 22:41:25.320 INFORMACIÓN [http-nio-8080-exec-107] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:41:25.326 INFORMACIÓN [http-nio-8080-exec-93] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Tutorial'
+14-Sep-2021 22:41:41.263 INFORMACIÓN [http-nio-8080-exec-111] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:41:41.268 INFORMACIÓN [http-nio-8080-exec-109] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Tutorial'
+14-Sep-2021 22:41:52.365 INFORMACIÓN [http-nio-8080-exec-113] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:41:52.371 INFORMACIÓN [http-nio-8080-exec-114] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Tutorial'
+14-Sep-2021 22:42:00.980 INFORMACIÓN [http-nio-8080-exec-111] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 22:42:00.987 INFORMACIÓN [http-nio-8080-exec-117] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Tutorial'
+14-Sep-2021 23:19:02.289 INFORMACIÓN [http-nio-8080-exec-129] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 23:19:06.082 INFORMACIÓN [http-nio-8080-exec-125] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 23:19:06.085 INFORMACIÓN [http-nio-8080-exec-126] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+14-Sep-2021 23:19:06.112 INFORMACIÓN [http-nio-8080-exec-129] org.apache.catalina.core.ApplicationContext.log Manager: restart: Reloading web application '/Tutorial'

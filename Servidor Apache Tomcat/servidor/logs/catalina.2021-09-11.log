@@ -1,0 +1,66 @@
+11-Sep-2021 11:44:35.531 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.8
+11-Sep-2021 11:44:35.533 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 27 2018 19:32:00 UTC
+11-Sep-2021 11:44:35.534 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.8.0
+11-Sep-2021 11:44:35.536 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+11-Sep-2021 11:44:35.536 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+11-Sep-2021 11:44:35.536 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Sep-2021 11:44:35.536 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_65\jre
+11-Sep-2021 11:44:35.536 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_65-b17
+11-Sep-2021 11:44:35.536 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Sep-2021 11:44:35.536 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\UIS\servidor
+11-Sep-2021 11:44:35.536 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\UIS\servidor
+11-Sep-2021 11:44:35.536 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\UIS\servidor\conf\logging.properties
+11-Sep-2021 11:44:35.537 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Sep-2021 11:44:35.537 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|FDBAPRCISFSD613
+11-Sep-2021 11:44:35.537 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Sep-2021 11:44:35.537 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Sep-2021 11:44:35.537 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-Sep-2021 11:44:35.537 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\UIS\servidor
+11-Sep-2021 11:44:35.537 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\UIS\servidor
+11-Sep-2021 11:44:35.537 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\UIS\servidor\temp
+11-Sep-2021 11:44:35.537 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.16] con la versión APR [1.6.3].
+11-Sep-2021 11:44:35.537 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true].
+11-Sep-2021 11:44:35.537 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-Sep-2021 11:44:36.187 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.0.2m  2 Nov 2017]
+11-Sep-2021 11:44:36.300 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Sep-2021 11:44:36.325 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Sep-2021 11:44:36.330 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Sep-2021 11:44:36.331 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Sep-2021 11:44:36.331 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1260 ms
+11-Sep-2021 11:44:36.390 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+11-Sep-2021 11:44:36.390 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.8
+11-Sep-2021 11:44:36.400 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml]
+11-Sep-2021 11:44:36.444 ADVERTENCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/DemoUIS] in deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has been ignored
+11-Sep-2021 11:44:39.020 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+11-Sep-2021 11:44:39.132 INFORMACIÓN [main] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.ApplicationConfig, at the servlet mapping /api/*, with the Application class of the same name.
+11-Sep-2021 11:44:39.327 ADVERTENCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [192] milliseconds.
+11-Sep-2021 11:44:39.716 INFORMACIÓN [main] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+11-Sep-2021 11:44:40.161 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\DemoUIS.xml] has finished in [3.761] ms
+11-Sep-2021 11:44:40.162 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UIS\servidor\conf\Catalina\localhost\restful.xml]
+11-Sep-2021 11:44:40.163 ADVERTENCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/restful] in deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\restful.xml] has been ignored
+11-Sep-2021 11:44:40.225 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+11-Sep-2021 11:44:40.226 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\restful.xml] has finished in [65] ms
+11-Sep-2021 11:44:40.226 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [E:\UIS\servidor\conf\Catalina\localhost\Tutorial.xml]
+11-Sep-2021 11:44:40.227 ADVERTENCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Tutorial] in deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\Tutorial.xml] has been ignored
+11-Sep-2021 11:44:42.095 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+11-Sep-2021 11:44:42.162 INFORMACIÓN [main] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.Aplicacion, at the servlet mapping /api/*, with the Application class of the same name.
+11-Sep-2021 11:44:42.498 INFORMACIÓN [main] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+11-Sep-2021 11:44:42.853 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [E:\UIS\servidor\conf\Catalina\localhost\Tutorial.xml] has finished in [2.627] ms
+11-Sep-2021 11:44:42.854 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [E:\UIS\servidor\webapps\docs] de la aplicación web
+11-Sep-2021 11:44:42.977 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UIS\servidor\webapps\docs] has finished in [122] ms
+11-Sep-2021 11:44:42.977 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [E:\UIS\servidor\webapps\examples] de la aplicación web
+11-Sep-2021 11:44:44.308 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UIS\servidor\webapps\examples] has finished in [1.330] ms
+11-Sep-2021 11:44:44.308 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [E:\UIS\servidor\webapps\host-manager] de la aplicación web
+11-Sep-2021 11:44:44.362 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UIS\servidor\webapps\host-manager] has finished in [54] ms
+11-Sep-2021 11:44:44.363 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [E:\UIS\servidor\webapps\manager] de la aplicación web
+11-Sep-2021 11:44:44.387 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UIS\servidor\webapps\manager] has finished in [23] ms
+11-Sep-2021 11:44:44.387 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [E:\UIS\servidor\webapps\ROOT] de la aplicación web
+11-Sep-2021 11:44:44.411 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UIS\servidor\webapps\ROOT] has finished in [24] ms
+11-Sep-2021 11:44:44.412 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Sep-2021 11:44:44.418 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Sep-2021 11:44:44.420 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in 8088 ms
+11-Sep-2021 11:53:00.236 INFORMACIÓN [http-nio-8080-exec-6] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/Tutorial]
+11-Sep-2021 11:53:01.981 INFORMACIÓN [http-nio-8080-exec-6] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+11-Sep-2021 11:53:02.060 INFORMACIÓN [http-nio-8080-exec-6] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Registering the Jersey servlet application, named restful.Aplicacion, at the servlet mapping /api/*, with the Application class of the same name.
+11-Sep-2021 11:53:02.407 INFORMACIÓN [http-nio-8080-exec-6] org.glassfish.jersey.server.ApplicationHandler.initialize Initiating Jersey application, version Jersey: 2.5.1 2014-01-02 13:43:00...
+11-Sep-2021 11:53:02.780 INFORMACIÓN [http-nio-8080-exec-6] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
